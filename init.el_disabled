@@ -1,0 +1,156 @@
+;; init.el の大元の設定
+
+(require 'init-loader "~/.emacs.d/elpa/init-loader-0.2/init-loader.el")
+(init-loader-load "~/.emacs.d/inits")
+
+;; init.elに記述しているのは，「init-loader」 で 「inits ファイル群」を読み込む設定のみです (init-loader-x は init-loader の改造版)．
+;;init.el(このファイル)には，init-loaderでinitsファイル群を読み込む設定のみ書き込む
+;;（init-loader-xはinit-loaderの改良版）
+
+;;; load-pathの設定
+(add-to-list 'load-path "/Users/freedom/.emacs.d/loadpath")
+(add-to-list 'load-path "~/.emacs.d/elisp/")
+(add-to-list 'load-path "~/.emacs.d/elpa")
+
+
+;;
+;;
+;;
+;;
+;;
+;;
+(require 'package) ;; You might already have this line
+(package-initialize) ;; You might already have this line
+
+(add-to-list 'package-archives
+             '("melpa-stable" . "https://stable.melpa.org/packages/") t)
+(add-to-list 'package-archives
+             '("gnu" . "http://elpa.gnu.org/packages/"))
+(add-to-list 'package-archives
+             '("org" . "http://orgmode.org/elpa/"))
+(add-to-list 'package-archives
+     '("melpa" . "http://melpa.milkbox.net/packages/") t)
+
+
+;;elspの最低限の文法
+;;関数の実行は()の中
+;;  例えば(set 'a 100)
+;;普通，変数はその場で評価されてしまう．評価されるのを防ぐには，「'」を変数名の前につける('val)のように．
+
+
+
+
+
+;;loadpathの追加設定
+
+;; packageの設定
+;;(require 'package) ;; You might already have this line
+;;(let* ((no-ssl (and (memq system-type '(windows-nt ms-dos))
+;;                    (not (gnutls-available-p))))
+;;       (url (concat (if no-ssl "http" "https") "://melpa.org/packages/")))
+;;  (add-to-list 'package-archives (cons "melpa" url) t))
+;;(when (< emacs-major-version 24)
+;;  ;; For important compatibility libraries like cl-lib
+;;  (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
+
+
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(desktop-globals-to-save
+   (quote
+    (desktop-missing-file-warning tags-file-name tags-table-list search-ring regexp-search-ring register-alist file-name-history kill-ring)))
+ '(desktop-save-mode t)
+ '(irony-additional-clang-options (quote ("-std=c++11")))
+ '(package-selected-packages
+   (quote
+    (tabbar exec-path-from-shell yatex restart-emacs tuareg yasnippet-snippets company auto-complete cedit yasnippet undo-tree multi-eshell auto-install elscreen elscreen-fr use-package rainbow-mode powerline perspective package-utils helm-perspeen company-irony browse-kill-ring+ apel))))
+
+
+
+;; (custom-set-faces
+;;  ;; custom-set-faces was added by Custom.
+;;  ;; If you edit it by hand, you could mess it up, so be careful.
+;;  ;; Your init file should contain only one such instance.
+;;  ;; If there is more than one, they won't work right.
+;;  '(whitespace-empty ((t nil)))
+;;  '(whitespace-indentation ((t nil)))
+;;  '(whitespace-line ((t nil)))
+;;  '(whitespace-space ((t (:background "gray100" :foreground "dark red"))))
+;;  '(whitespace-space-after-tab ((t nil)))
+;;  '(whitespace-space-before-tab ((t (:background "DarkOrange" :foreground "firebrick"))))
+;;  '(whitespace-trailing ((t nil))) )
+
+(require 'whitespace)
+;; 空白
+(set-face-foreground 'whitespace-space "red")
+(set-face-background 'whitespace-space nil)
+;; ファイル先頭と末尾の空行
+(set-face-background 'whitespace-empty "red")
+;; タブ
+(set-face-foreground 'whitespace-tab "red")
+(set-face-background 'whitespace-tab nil)
+;; ;; ???
+(set-face-background 'whitespace-trailing "red")
+(set-face-background 'whitespace-hspace nil)
+
+(setq whitespace-style '(face           ; faceで可視化
+                         trailing       ; 行末
+                         tabs           ; タブ
+                         empty          ; 先頭/末尾の空行
+                         spaces         ; 空白
+                         space-mark     ; 表示のマッピング
+                         tab-mark))
+;; (setq whitespace-style
+;;         '(
+;;           face ; faceで可視化
+;;           trailing ; 行末
+;;           tabs ; タブ
+;;           spaces ; スペース
+;;           space-mark ; 表示のマッピング
+;;           tab-mark
+;;           ))
+;; (setq whitespace-display-mappings
+;;       '(
+;;         (space-mark ?\u3000 [?\u2423])
+;;         (tab-mark ?\t [?\u00BB ?\t] [?\\ ?\t])
+;;         (newline-mark ?\n    [?\x2193 ?\n] [?$ ?\n])    ; end-of-line
+;;         ))
+
+(setq whitespace-trailing-regexp  "\\([ \u00A0]+\\)$")
+(setq whitespace-space-regexp "\\(\u3000+\\)")
+  (set-face-attribute 'whitespace-trailing nil
+                      :foreground "RoyalBlue4"
+                      :background "RoyalBlue4"
+                      :underline t)
+  (set-face-attribute 'whitespace-tab nil
+                      :foreground "yellow4"
+                      :background "yellow4"
+                      :underline t)
+  (set-face-attribute 'whitespace-space nil
+                      :foreground "gray40"
+                      :background "gray20"
+                      :underline t)
+(global-whitespace-mode 1)
+(global-whitespace-newline-mode 1)
+
+;; (custom-set-faces
+;;  ;; custom-set-faces was added by Custom.
+;;  ;; If you edit it by hand, you could mess it up, so be careful.
+;;  ;; Your init file should contain only one such instance.
+;;  ;; If there is more than one, they won't work right.
+;;  '(whitespace-empty ((t nil)))
+;;  '(whitespace-indentation ((t nil)))
+;;  '(whitespace-line ((t nil)))
+;;  '(whitespace-space ((t (:background "Purple"))))
+;;  '(whitespace-space-after-tab ((t nil)))
+;;  '(whitespace-space-before-tab ((t (:background "DarkOrange" :foreground "firebrick"))))
+;;  '(whitespace-trailing ((t nil))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(whitespace-space ((t (:background "dark red" :foreground "dark red" :weight bold)))))

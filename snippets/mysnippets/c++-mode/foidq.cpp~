@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: foidq
+# key: foidq
+# --
+FORQ($1,$2,$3){
+    $4
+}

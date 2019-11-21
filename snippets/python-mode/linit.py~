@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: linit
+# key: linit
+# --
+l = [${1:0} for _ in range(${2:n})]

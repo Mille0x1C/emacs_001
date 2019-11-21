@@ -1,0 +1,8 @@
+(require 'omni-scratch)
+
+
+    ;; :bind (("M-s $ DEL" . omni-scratch)
+    ;;        ("M-s $ -" . omni-scratch-major)
+    ;;        ("M-s $ _" . omni-scratch-buffer)
+    ;;        ("M-s $ $" . omni-scratch-goto-latest)
+    ;;        ("M-s $ b" . omni-scratch-buffers)))

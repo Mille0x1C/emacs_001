@@ -1,0 +1,243 @@
+(require 'whitespace)
+;; 空白
+(set-face-foreground 'whitespace-space "white")
+(set-face-background 'whitespace-space "gray33")
+;; ファイル先頭と末尾の空行
+(set-face-background 'whitespace-empty "gray33")
+;; タブ
+(set-face-foreground 'whitespace-tab "white")
+(set-face-background 'whitespace-tab "gray33")
+;; ???
+(set-face-background 'whitespace-trailing "gray33")
+(set-face-background 'whitespace-hspace "gray33")
+
+(setq whitespace-style '(face           ; faceで可視化
+                         trailing       ; 行末
+                         tabs           ; タブ
+                         empty          ; 先頭/末尾の空行
+                         spaces         ; 空白
+                         space-mark     ; 表示のマッピング
+                         tab-mark))
+
+;; スペースは全角のみを可視化
+;; (setq whitespace-space-regexp "\\(\u3000+\\)")
+
+;; タブの表示を変更
+(setq whitespace-display-mappings
+      '((tab-mark ?\t [?\xBB ?\t])))
+;; 発動
+(global-whitespace-mode 1)
+
+;;#############
+
+(require 'whitespace)
+;; 空白
+;; (set-face-foreground 'whitespace-space "red")
+;; (set-face-background 'whitespace-space nil)
+;; ファイル先頭と末尾の空行
+;; (set-face-background 'whitespace-empty "red")
+;; タブ
+;; (set-face-foreground 'whitespace-tab "red")
+;; (set-face-background 'whitespace-tab nil)
+;; ;; ???
+;; (set-face-background 'whitespace-trailing "red")
+;; (set-face-background 'whitespace-hspace nil)
+
+(setq whitespace-style '(face           ; faceで可視化
+                         trailing       ; 行末
+                         tabs           ; タブ
+                         empty          ; 先頭/末尾の空行
+                         spaces         ; 空白
+                         space-mark     ; 表示のマッピング
+                         tab-mark))
+;; (setq whitespace-style
+;;         '(
+;;           face ; faceで可視化
+;;           trailing ; 行末
+;;           tabs ; タブ
+;;           spaces ; スペース
+;;           space-mark ; 表示のマッピング
+;;           tab-mark
+;;           ))
+;; (setq whitespace-display-mappings
+;;       '(
+;;         (space-mark ?\u3000 [?\u2423])
+;;         (tab-mark ?\t [?\u00BB ?\t] [?\\ ?\t])
+;;         (newline-mark ?\n    [?\x2193 ?\n] [?$ ?\n])    ; end-of-line
+;;         ))
+
+
+
+
+(setq whitespace-trailing-regexp  "\\([ \u00A0]+\\)$")
+(setq whitespace-space-regexp "\\(\u3000+\\)")
+  (set-face-attribute 'whitespace-trailing nil
+                      :foreground "RoyalBlue4"
+                      :background "RoyalBlue4"
+                      :underline t)
+  (set-face-attribute 'whitespace-tab nil
+                      :foreground "yellow4"
+                      :background "yellow4"
+                      :underline t)
+  (set-face-attribute 'whitespace-space nil
+                      :foreground "gray40"
+                      :background "gray20"
+                      :underline t)
+(global-whitespace-mode 1)
+(global-whitespace-newline-mode 1)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;pythonの設定
+;; (require 'python-mode)
+;; (setq py-install-directory "/Users/freedom/.emacs.d/python-mode/")
+;; (add-to-list 'load-path py-install-directory)
+;;    (use-package python-mode :ensure t
+;;      :mode ("\\.py\\'" . python-mode)
+;;      :interpreter ("python" . python-mode)
+;;      :after pyvenv-mode
+;;      :config
+;;      (setq indent-tabs-mode nil)
+;;      (setq electric-indent-local-mode -1)
+;;      (setq py-indent-tabs-mode t)
+;;      (setq py-indent-offset 4)
+;;      ;
+;;      (outline-minor-mode t)
+;;      (eldoc-mode t)
+;;      (setq eldoc-echo-area-use-multiline-p t)
+;;      (setq eldoc-idle-delay 3)
+;;      (setq eldoc-minor-mode-string nil)
+;;      (setq python-fill-docstring-style 'pep-257)
+;;     )
+
+;; (use-package elpy :ensure t
+;;   :after python-mode
+;;   ;; pythonではなくpython-mode
+;;   :hook (python-mode . elpy-enable)
+;;   ;; ここを elpy-mode にすると、python-modeになってないと怒られる。
+;;   ;:init
+;;   ;(package-initialize) ;; 無くても大丈夫そう
+;;   :config
+;;   (elpy-mode)
+;;   ;for emacs26.1 is a new flymake.
+;;   (when (require 'flycheck nil t)
+;;    (setq elpy-modules (delq 'elpy-module-flymake elpy-modules))
+;;    (add-hook 'elpy-mode-hook 'flycheck-mode))
+;;   (setq elpy-syntax-check-command "pylint")
+;;   ; flake8 がうまく動いてくれないから。きっとversionが附合してない。
+;;   ; 初心者にはpylintよりflake8が向いていると、どこかで読んだ記憶がある。
+;;   )
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;loadpathの追加設定
+
+;; packageの設定
+;;(require 'package) ;; You might already have this line
+;;(let* ((no-ssl (and (memq system-type '(windows-nt ms-dos))
+;;                    (not (gnutls-available-p))))
+;;       (url (concat (if no-ssl "http" "https") "://melpa.org/packages/")))
+;;  (add-to-list 'package-archives (cons "melpa" url) t))
+;;(when (< emacs-major-version 24)
+;;  ;; For important compatibility libraries like cl-lib
+;;  (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
+
+
+;; (custom-set-faces
+;;  ;; custom-set-faces was added by Custom.
+;;  ;; If you edit it by hand, you could mess it up, so be careful.
+;;  ;; Your init file should contain only one such instance.
+;;  ;; If there is more than one, they won't work right.
+;;  '(whitespace-empty ((t nil)))
+;;  '(whitespace-indentation ((t nil)))
+;;  '(whitespace-line ((t nil)))
+;;  '(whitespace-space ((t (:background "gray100" :foreground "dark red"))))
+;;  '(whitespace-space-after-tab ((t nil)))
+;;  '(whitespace-space-before-tab ((t (:background "DarkOrange" :foreground "firebrick"))))
+;;  '(whitespace-trailing ((t nil))) )
+
+;; (cond
+;;  ((eq window-system 'ns)
+;;   (mac-translate-from-yen-to-backslash)))
+
+
+;; (custom-set-faces
+;;  ;; custom-set-faces was added by Custom.
+;;  ;; If you edit it by hand, you could mess it up, so be careful.
+;;  ;; Your init file should contain only one such instance.
+;;  ;; If there is more than one, they won't work right.
+;;  '(whitespace-empty ((t nil)))
+;;  '(whitespace-indentation ((t nil)))
+;;  '(whitespace-line ((t nil)))
+;;  '(whitespace-space ((t (:background "Purple"))))
+;;  '(whitespace-space-after-tab ((t nil)))
+;;  '(whitespace-space-before-tab ((t (:background "DarkOrange" :foreground "firebrick"))))
+;;  '(whitespace-trailing ((t nil))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(bold ((t (:weight bold))))
+ '(whitespace-empty ((t nil)))
+ '(whitespace-space ((t (:box (:line-width 2 :color "grey75" :style released-button) :overline t :underline "black" :weight bold))))
+ '(whitespace-tab ((t (:underline t))))
+ '(whitespace-trailing ((t (:underline t)))))
+
+
+;; (put 'auto-complete 'disabled t)
+;; (put 'global-auto-complete-mode 'disabled t)
+(require 'whitespace)
+;; 空白
+;; (set-face-foreground 'whitespace-space "red")
+;; (set-face-background 'whitespace-space nil)
+;; ファイル先頭と末尾の空行
+;; (set-face-background 'whitespace-empty "red")
+;; タブ
+;; (set-face-foreground 'whitespace-tab "red")
+;; (set-face-background 'whitespace-tab nil)
+;; ;; ???
+;; (set-face-background 'whitespace-trailing "red")
+;; (set-face-background 'whitespace-hspace nil)
+
+(setq whitespace-style '(face           ; faceで可視化
+                         trailing       ; 行末
+                         tabs           ; タブ
+                         empty          ; 先頭/末尾の空行
+                         spaces         ; 空白
+                         space-mark     ; 表示のマッピング
+                         tab-mark))
+;; (setq whitespace-style
+;;         '(
+;;           face ; faceで可視化
+;;           trailing ; 行末
+;;           tabs ; タブ
+;;           spaces ; スペース
+;;           space-mark ; 表示のマッピング
+;;           tab-mark
+;;           ))
+;; (setq whitespace-display-mappings
+;;       '(
+;;         (space-mark ?\u3000 [?\u2423])
+;;         (tab-mark ?\t [?\u00BB ?\t] [?\\ ?\t])
+;;         (newline-mark ?\n    [?\x2193 ?\n] [?$ ?\n])    ; end-of-line
+;;         ))
+
+
+
+
+(setq whitespace-trailing-regexp  "\\([ \u00A0]+\\)$")
+(setq whitespace-space-regexp "\\(\u3000+\\)")
+  (set-face-attribute 'whitespace-trailing nil
+                      :foreground "RoyalBlue4"
+                      :background "RoyalBlue4"
+                      :underline t)
+  (set-face-attribute 'whitespace-tab nil
+                      :foreground "yellow4"
+                      :background "yellow4"
+                      :underline t)
+  (set-face-attribute 'whitespace-space nil
+                      :foreground "gray40"
+                      :background "gray20"
+                      :underline t)
+(global-whitespace-mode 1)
+(global-whitespace-newline-mode 1)

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: matpl
+# key: 
+# --
+from matplotlib import pyplot

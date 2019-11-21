@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: nin
+# key: nin
+# --
+int n; cin>>n;
