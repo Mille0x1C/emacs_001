@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: recrel
+# key: recrel
+# --
+if i > 0 and l[i] > l[i-1]:
+    pass

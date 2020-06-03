@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: crange
+# key: crange
+# --
+def crange(${1:a}, ${2:b}, ${3:i}):
+    return range($1, $2 + 1, $3)

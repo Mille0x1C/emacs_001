@@ -1,0 +1,83 @@
+from __future__ import print_function
+
+import sys
+input = sys.stdin.readline
+
+
+def eprint(*args, **kwargs):
+    print(*args, file=sys.stderr, **kwargs)
+    return
+
+
+# import re
+# import array
+# import copy
+# import functools
+# import operator
+
+# import math
+# import string
+# import fractions
+# from fractions import Fraction
+from fractions import gcd
+
+# import collections
+# import itertools
+# import bisect
+
+# import heapq
+# from heapq import heappush
+# from heapq import heappop
+# from heapq import heappushpop
+# from heapq import heapify
+# from heapq import heapreplace
+# from queue import PriorityQueue as pq
+from queue import Queue
+
+# from itertools import accumulate
+
+# from collections import deque
+# from collections import Counter
+
+# from operator import mul
+# from functools import reduce
+
+
+# def lcm(n,m):
+#     return int(n*m/gcd(n,m))
+
+
+# def reduce(p, q):
+#     common = fractions.gcd(p, q)
+#     return (p//common , q//common )
+
+# def combinations_count(n, r):
+#     r = min(r, n - r)
+#     numer = reduce(mul, range(n, n - r, -1), 1)
+#     denom = reduce(mul, range(1, r + 1), 1)
+#     return numer // denom
+
+# import random
+# import time
+
+
+def main():
+    n, m = map(int, input().strip().split())
+    a = [input().strip() for _ in range(n)]
+    b = [input().strip() for _ in range(m)]
+    # success_flag = 0
+    for i in range(n - m):
+        for j in range(n - m):
+            failure_flag=0
+            for col in range(m):
+                for row in range(m):
+                    if a[i+col][j+row]!=b[col][row]:
+                        failure_flag=1
+            if failure_flag==0:
+                print("Yes")
+                return
+    print("No")
+    return
+
+if __name__ == '__main__':
+    main()

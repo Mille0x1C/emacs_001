@@ -2,4 +2,4 @@
 # name: map_input
 # key: mpin
 # --
-${1:n,a,b,c} = map(int, input().split())
+${1:n,a,b,c} = map(int, input().strip().split())

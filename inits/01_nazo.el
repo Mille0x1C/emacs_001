@@ -1,3 +1,5 @@
+;;; キーバインドとか書こうかなぁ
+
 ;; (custom-set-faces
 ;;  ;; custom-set-faces was added by Custom.
 ;;  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -18,6 +20,16 @@
 ;;         (tab-mark   ?\t   [?\xBB ?\t])
 ;;         ))
 
+;; 行の入れ替え
+
+(defun move-line-down-x ()
+  (interactive)
+  (let ((col (current-column)))
+    
+    )
+
+
+  )
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.

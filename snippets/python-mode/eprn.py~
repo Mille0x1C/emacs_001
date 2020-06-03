@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: eprn
+# key: eprn
+# --
+eprint("$0 ",end=": \n")
+eprint($0)

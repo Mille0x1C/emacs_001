@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: srcl
+# key: srcl
+# --
+src_<${1:}>[<${2:header arguments}>]{<${3:body}>}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: srcb
+# key: srcb
+# --
+#+NAME: ${1:}
+#+BEGIN_SRC ${2:language} ${3:switches} ${4:header arguments}
+  ${5:body}
+#+END_SRC

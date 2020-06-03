@@ -1,0 +1,381 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Thu Jun  4 01:01:40 2020
+;; Desktop file format version 208
+;; Emacs version 26.3
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (24279 51556 249237 0) (desktop . "208") "freedom@freedoms-MacBook-Air.local" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font-backend mac-ct) (font . "-*-Menlo-normal-normal-normal-*-12-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars) (foreground-color . "gray80") (background-color . "#181a26") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (alpha) (scroll-bar-foreground) (scroll-bar-background) (tool-bar-lines . 0) (title) (inhibit-double-buffering . t) (menu-bar-lines . 0) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 15) (scroll-bar-height . 0) (no-focus-on-map) (no-accept-focus) (fullscreen) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (cursor-color . "green") (environment) (fontsize . 0) (powerline-cache) (display . "Mac") (frameset--id . "7542-CCCD-2AC1-3541") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (explicit-name) (tool-bar-position . top) (frameset--text-pixel-width . 685) (frameset--text-pixel-height . 851) (height . 60) (width . 97) (left . 720) (top . 23)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 10) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 56) (min-pixel-width . 70) (min-pixel-height-ignore . 42) (min-pixel-width-ignore . 70) (min-pixel-height-safe . 14) (min-pixel-width-safe . 14)) leaf (pixel-width . 716) (pixel-height . 837) (total-width . 102) (total-height . 60) (normal-height . 1.0) (normal-width . 1.0) (buffer "2020-06-03.text" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins 3) (scroll-bars nil 3 t nil 0 t) (vscroll . 0) (dedicated) (point . 127) (start . 38))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("dar" "org" "indent" "preference" "define-key" "concat" "C-x C-z" "C-h k" " " "use-package" "use-" "use-package" "initialize" "package" "package-install" "condition-case-no-debug"))
+(setq regexp-search-ring nil)
+(setq register-alist '((51 file-query "/Users/freedom/work_togawa/2020_01_18_forZemi/thesis.tex" 10847)))
+(setq file-name-history '("~/.emacs.d/japanize.el" "~/.emacs.d/inits/00_command-keymap_and_fundamentals.el" "~/.emacs.d/init.el" "~/coder/abc169_d.py.py" "~/scratch/2020-06-03.text" "~/scratch/haskell_setup" "~/.emacs.d/inits/83_python.el" "~/.emacs.d/inits/03_whitespace.el" "~/.emacs.d/inits/02_org.el" "~/.emacs.d/inits/00_command-keymap.el~" "/Applications/Emacs.app/Contents/Resources/lisp/emacs-lisp/package-x.el" "/Applications/Emacs.app/Contents/Resources/lisp/emacs-lisp/package.el" "/Applications/Emacs.app/Contents/Resources/lisp/emacs-lisp/package.elc" "~/.emacs.d/elpa/pcre2el-20161120.1303/pcre2el-pkg.el" "~/work_togawa/k_GraphColoring/GraphColoring.py" "~/work_togawa/k_GraphColoring/generate_coefficient.py" "~/work_togawa/k_GraphColoring/generation.py" "~/coder/abc065.py" "~/.emacs.d/inits/00_command-keymap.el" "~/scratch/scratch_2020-01-21.org~" "~/scratch/scratch_2020-01-21.org" "~/scratch/scratch_2020-01-21.tex" "~/gomi/table.csv" "~/.emacs.d/inits/86_flycheck.el" "~/gomi/gomi000_nazo.el~" "~/gomi/gomi001_nazo.el" "~/gomi/gomi000_nazo.el" "~/.emacs.d/inits/01_nazo.el" "~/scratch/scratch_20191208_002.org" "~/scratch/scratch_20191208_001.org" "~/scratch/scratch_20191208.org" "~/scratch/scratch_20200116.org" "~/work_togawa/k_GraphColoring/setup.cfg" "~/.config/flake8" "~/scratch/scratch_2020_01_18.org" "~/work_togawa/2020_01_18_forZemi/main.tex" "~/coder/abc060_b_001.py" "~/.emacs.d/snippets/python-mode/gin_list_comprehension.py" "~/scratch/scratch_2020-01-17.org" "~/scratch/2020-01-17.html" "~/scratch/scratch_2020-01-17.html~" "~/scratch/scratch_2020-01-17.org~" "~/coder/abc110_b.py" "~/coder/abc109_b.py" "~/coder/abc133_b.py" "~/coder/abc066_b.py" "~/.emacs.d/elpa/package-utils-20170222.2352/package-utils-pkg.el" "~/.emacs.d/elpa/tabbar-20180726.1735/tabbar.el" "~/coder/abc140_a.py" "~/scratch/scratch_20190111.org" "~/backup/.bashrc" "~/.bashrc" "~/scratch/scratch_elisp.el" "~/scratch/scratch_20191208.html~" "~/scratch/scratch_20191208.html" "~/stm/motoro_class.py" "~/stm/motor_class.py" "~/stm/motoro_class.oy" "~/stm/#motor_class.py#" "~/stm/’¥¿’¥¸’¥Þddisa/DDISA_firm/Tool/ddisa_setting.py" "~/raspberrypi3/motor.py" "~/coder/#abc129_c.py#" "~/coder/abc113_c3.py" "~/coder/sumitb2019_c.py" "~/coder/abc145_c_001.py" "~/scratch/scratch_20191209.org" "~/gomi/isizaki.html" "~/coder/abc098_b.py" "~/work/sample_tex.tex" "~/work/sample_latex.tex" "~/scratch/scratch_20191208_001.html" "~/#scratcg_20191206.org#" "~/#scratc_20191208.org#" "~/scratcg_20191206.org" "~/scratc_20191208.org" "~/Documents/scratch11132019.txt" "~/Documents/scratch_org_20191129" "~/Documents/scratch_org_20191129.org" "~/coder/scratch.txt" "~/coder/sumitb2019_a.py" "~/Documents/scratch_10232019.txt" "~/Documents/scratch_10102019_002.txt" "~/Documents/#scratch_org_20191129#" "~/coder/#sumitb2019_d.py#"))
+(setq kill-ring '("(unless window-system" ";;; janpanaize\n(set-default-coding-systems 'utf-8)\n(set-keyboard-coding-system 'utf-8)\n(set-terminal-coding-system 'utf-8)\n(set-buffer-file-coding-system 'utf-8)\n" "(unless window-system\n  (load-theme 'manoj-dark t)\n  )\n" "\\begin{math}\n\n\\end{math}\n" "`org-cdlatex-mode' Minor Mode Bindings Starting With C-c:" "    r" "r)" "xyz" "abcdef" "abcdef" "xyz" "xyz" "abcdef" "abcdef" "xyz" "xyz" "abcdef" "abcdef" "xyz" "xyz" "abcdef" "abcdef" "xyz" "xyz" "abcdef" "insert-kbd-macro is an interactive autoloaded compiled Lisp function\nin ’¡Æmacros.el’¡Ç.\n\n(insert-kbd-macro MACRONAME &optional KEYS)\n\nInsert in buffer the definition of kbd macro MACRONAME, as Lisp code.\nMACRONAME should be a symbol.\nOptional second arg KEYS means also record the keys it is on\n(this is the prefix argument, when calling interactively).\n\nThis Lisp code will, when executed, define the kbd macro with the same\ndefinition it has now.  If you say to record the keys, the Lisp code\nwill also rebind those keys to the macro.  Only global key bindings\nare recorded since executing this Lisp code always makes global\nbindings.\n\nTo save a kbd macro, visit a file of Lisp code such as your ’¡Æ~/.emacs’¡Ç,\nuse this command, and then save the file.\n\n[back]\n" "xyz" "abcdef" "abcdef" "xyz" "abcdef" "xyz" "xyz" "abcdef" "abcdef" "xyz" "xyz" "abcdef" "abcdef" "xyz" "xyz" "abcdef" "abcdef" "xyz" "xyz" "abcdef" "abcdef" "xyz" "xyz" "abcdef" "abcdef" "xyz" "xyz" "abcdef" "abcdef" "xyz" "xyz" "abcdef" "abcdef" "xyz"))
+(setq kill-ring-yank-pointer (nthcdr 0 kill-ring))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/Users/freedom/scratch/2020-06-03.text"
+  "2020-06-03.text"
+  'org-mode
+  '(eldoc-mode linum-mode override-global-mode global-whitespace-mode persistent-scratch-autosave-mode helm-mode undo-tree-mode yas-minor-mode company-mode flycheck-mode org-cdlatex-mode org-indent-mode)
+  127
+  '(6793 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 24279 51532 38348 0) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring (6810 6907 6957 6799 79 2604 1351 1585 1582 1576 1584 1847 1590 1649 1646 143))))
+
+(desktop-create-buffer 208
+  "/Users/freedom/coder/abc169_d.py.py"
+  "abc169_d.py.py"
+  'python-mode
+  '(eldoc-mode linum-mode override-global-mode global-whitespace-mode persistent-scratch-autosave-mode helm-mode undo-tree-mode yas-minor-mode company-mode elpy-mode flymake-mode highlight-indentation-mode flycheck-mode)
+  981
+  '(1104 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24279 49589 137080 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (1083 1083 1102 825 1226 881 1052))))
+
+(desktop-create-buffer 208
+  "/Users/freedom/.emacs.d/inits/00_command-keymap_and_fundamentals.el"
+  "00_command-keymap_and_fundamentals.el"
+  'emacs-lisp-mode
+  '(eldoc-mode linum-mode override-global-mode global-whitespace-mode persistent-scratch-autosave-mode helm-mode undo-tree-mode yas-minor-mode company-mode flycheck-mode)
+  3278
+  '(3711 nil)
+  nil
+  nil
+  '((buffer-display-time 24279 51100 168177 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (3673 3649 3529 3585 3342 405 2560 3523 3583 3420 3851))))
+
+(desktop-create-buffer 208
+  "/Users/freedom/.emacs.d/japanize.el"
+  "japanize.el"
+  'emacs-lisp-mode
+  '(eldoc-mode linum-mode override-global-mode global-whitespace-mode persistent-scratch-autosave-mode helm-mode undo-tree-mode yas-minor-mode company-mode flycheck-mode)
+  163
+  '(1 nil)
+  nil
+  nil
+  '((buffer-display-time 24279 50758 199146 0) (buffer-file-coding-system . prefer-utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/freedom/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(eldoc-mode linum-mode override-global-mode global-whitespace-mode persistent-scratch-autosave-mode helm-mode undo-tree-mode yas-minor-mode company-mode flycheck-mode)
+  318
+  '(1822 nil)
+  nil
+  nil
+  '((buffer-display-time 24279 50625 601473 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (1 2022))))
+
+(desktop-create-buffer 208
+  "/Users/freedom/Documents/org/captured.org"
+  "captured.org"
+  'org-mode
+  '(eldoc-mode linum-mode override-global-mode global-whitespace-mode persistent-scratch-autosave-mode helm-mode undo-tree-mode yas-minor-mode company-mode flycheck-mode org-cdlatex-mode)
+  38
+  '(1 nil)
+  nil
+  nil
+  '((buffer-display-time 24279 50003 603918 0) (buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/usr/local/Cellar/emacs-mac/emacs-26.3-z-mac-7.8/share/emacs/26.3/etc/COPYING"
+  "COPYING"
+  'fundamental-mode
+  '(linum-mode override-global-mode global-whitespace-mode persistent-scratch-autosave-mode helm-mode undo-tree-mode yas-minor-mode company-mode goto-address-mode view-mode)
+  1
+  '(nil nil)
+  t
+  nil
+  '((buffer-display-time 24279 43948 535112 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/freedom/scratch/scratch_20200116.org"
+  "scratch_20200116.org"
+  'org-mode
+  '(eldoc-mode linum-mode override-global-mode global-whitespace-mode persistent-scratch-autosave-mode helm-mode undo-tree-mode yas-minor-mode company-mode flycheck-mode org-cdlatex-mode)
+  1226
+  '(1343 nil)
+  nil
+  nil
+  '((buffer-display-time 24279 43871 862945 0) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t))
+  '((mark-ring (1491 1347 1321 1123 461 579 1214 1138 1006 996 862 794 582 1399 10 28))))
+
+(desktop-create-buffer 208
+  "/Users/freedom/scratch/haskell_setup"
+  "haskell_setup"
+  'fundamental-mode
+  '(linum-mode override-global-mode global-whitespace-mode persistent-scratch-autosave-mode helm-mode undo-tree-mode yas-minor-mode company-mode)
+  997
+  '(752 nil)
+  nil
+  nil
+  '((buffer-display-time 24278 5151 599346 334000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (674 658))))
+
+(desktop-create-buffer 208
+  "/Users/freedom/.emacs.d/inits/83_python.el"
+  "83_python.el"
+  'emacs-lisp-mode
+  '(eldoc-mode linum-mode override-global-mode global-whitespace-mode persistent-scratch-autosave-mode helm-mode undo-tree-mode yas-minor-mode company-mode flycheck-mode)
+  391
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 24274 23763 513844 408000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/freedom/.emacs.d/inits/03_whitespace.el"
+  "03_whitespace.el"
+  'emacs-lisp-mode
+  '(eldoc-mode linum-mode override-global-mode global-whitespace-mode persistent-scratch-autosave-mode helm-mode undo-tree-mode yas-minor-mode company-mode flycheck-mode)
+  139
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 24274 23764 286111 408000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/freedom/.emacs.d/inits/02_org.el"
+  "02_org.el"
+  'emacs-lisp-mode
+  '(eldoc-mode linum-mode override-global-mode global-whitespace-mode persistent-scratch-autosave-mode helm-mode undo-tree-mode yas-minor-mode company-mode flycheck-mode)
+  1343
+  '(1284 nil)
+  nil
+  nil
+  '((buffer-display-time 24274 23765 222532 408000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (1195 578 309))))
+
+(desktop-create-buffer 208
+  nil
+  "*info*"
+  'Info-mode
+  '(linum-mode override-global-mode global-whitespace-mode persistent-scratch-autosave-mode helm-mode undo-tree-mode yas-minor-mode company-mode)
+  227
+  '(nil nil)
+  t
+  '("dir" "Top" nil)
+  '((tab-width . 8) (buffer-display-time 24274 17634 576560 408000) (case-fold-search . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/freedom/.emacs.d/inits/00_command-keymap.el~"
+  "00_command-keymap.el~"
+  'emacs-lisp-mode
+  '(eldoc-mode linum-mode override-global-mode global-whitespace-mode persistent-scratch-autosave-mode helm-mode undo-tree-mode yas-minor-mode company-mode flycheck-mode)
+  1
+  '(nil nil)
+  t
+  nil
+  '((buffer-display-time 24274 23770 395198 408000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  ".emacs.d"
+  'dired-mode
+  '(linum-mode override-global-mode global-whitespace-mode persistent-scratch-autosave-mode helm-mode yas-minor-mode company-mode)
+  1
+  '(nil nil)
+  t
+  '("/Users/freedom/.emacs.d/")
+  '((buffer-display-time 24274 23771 382339 408000))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/freedom/work_togawa/k_GraphColoring/GraphColoring.py"
+  "GraphColoring.py"
+  'python-mode
+  '(eldoc-mode linum-mode override-global-mode global-whitespace-mode persistent-scratch-autosave-mode helm-mode undo-tree-mode yas-minor-mode company-mode elpy-mode flymake-mode highlight-indentation-mode flycheck-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24274 23790 349184 408000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/freedom/coder/abc051_b.py"
+  "abc051_b.py"
+  'python-mode
+  '(eldoc-mode linum-mode override-global-mode global-whitespace-mode persistent-scratch-autosave-mode helm-mode undo-tree-mode yas-minor-mode company-mode elpy-mode flymake-mode highlight-indentation-mode flycheck-mode)
+  1
+  '(1433 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24274 23795 188649 408000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (1028 921 1433 1 1433 1433 1433 1101 251 1273 1028))))
+
+(desktop-create-buffer 208
+  "/Users/freedom/scratch/scratch_2020_01_18.org"
+  "scratch_2020_01_18.org"
+  'org-mode
+  '(eldoc-mode linum-mode override-global-mode global-whitespace-mode persistent-scratch-autosave-mode helm-mode undo-tree-mode yas-minor-mode company-mode flycheck-mode org-cdlatex-mode)
+  1
+  '(940 nil)
+  nil
+  nil
+  '((buffer-display-time 24274 23813 534417 408000) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t))
+  '((mark-ring (1263 800 865 637 540 376 142 321 270 254 253 220 177 212 184 613))))
+
+(desktop-create-buffer 208
+  "/Users/freedom/scratch/scratch_2020-01-17.org"
+  "scratch_2020-01-17.org"
+  'org-mode
+  '(eldoc-mode linum-mode override-global-mode global-whitespace-mode persistent-scratch-autosave-mode helm-mode undo-tree-mode yas-minor-mode company-mode flycheck-mode org-cdlatex-mode)
+  2636
+  '(1202 nil)
+  nil
+  nil
+  '((buffer-display-time 24274 23814 408225 408000) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t))
+  '((mark-ring (997 693 539 1150 1047 945 846 493 1895 1506 1259 2060 2778 2274 2181 996))))
+
+(desktop-create-buffer 208
+  "/Users/freedom/scratch/scratch_2020-01-21.tex"
+  "scratch_2020-01-21.tex"
+  'yatex-mode
+  '(linum-mode override-global-mode global-whitespace-mode persistent-scratch-autosave-mode helm-mode undo-tree-mode yas-minor-mode company-mode flycheck-mode)
+  2432
+  '(1852 nil)
+  nil
+  nil
+  '((buffer-display-time 24274 23819 162893 408000) (buffer-file-coding-system . utf-8-unix) (fill-column . 72))
+  '((mark-ring (1617 1591 1610 2667 2678 2546 2573))))
+
+(desktop-create-buffer 208
+  "/Users/freedom/scratch/scratch_20191208_001.org"
+  "scratch_20191208_001.org"
+  'org-mode
+  '(eldoc-mode linum-mode override-global-mode global-whitespace-mode persistent-scratch-autosave-mode helm-mode undo-tree-mode yas-minor-mode company-mode flycheck-mode org-cdlatex-mode)
+  175
+  '(183 nil)
+  nil
+  nil
+  '((buffer-display-time 24274 23819 552247 408000) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t))
+  '((mark-ring (686 593 660 175))))
+
+(desktop-create-buffer 208
+  "/Users/freedom/work_togawa/k_GraphColoring/setup.cfg"
+  "setup.cfg"
+  'conf-unix-mode
+  '(linum-mode override-global-mode global-whitespace-mode persistent-scratch-autosave-mode helm-mode undo-tree-mode yas-minor-mode company-mode flycheck-mode)
+  10
+  '(32 nil)
+  nil
+  nil
+  '((buffer-display-time 24274 23821 248335 408000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (32))))
+
+(desktop-create-buffer 208
+  "/Users/freedom/scratch/scratch_20191208.org"
+  "scratch_20191208.org"
+  'org-mode
+  '(eldoc-mode linum-mode override-global-mode global-whitespace-mode persistent-scratch-autosave-mode helm-mode undo-tree-mode yas-minor-mode company-mode flycheck-mode org-cdlatex-mode)
+  175
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 24274 23821 671713 408000) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/freedom/.emacs.d/elpa/org-bullets-0.2.4/org-bullets-autoloads.el"
+  "org-bullets-autoloads.el"
+  'emacs-lisp-mode
+  '(eldoc-mode linum-mode override-global-mode global-whitespace-mode persistent-scratch-autosave-mode helm-mode undo-tree-mode yas-minor-mode company-mode flycheck-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 24274 23822 135076 408000) (buffer-file-coding-system . prefer-utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/freedom/.emacs.d/elpa/popwin-1.0.0/popwin-autoloads.el"
+  "popwin-autoloads.el"
+  'emacs-lisp-mode
+  '(eldoc-mode linum-mode override-global-mode global-whitespace-mode persistent-scratch-autosave-mode helm-mode undo-tree-mode yas-minor-mode company-mode flycheck-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 24274 23822 611264 408000) (buffer-file-coding-system . prefer-utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/freedom/.emacs.d/elpa/popwin-20150315.1300/popwin-autoloads.el"
+  "popwin-autoloads.el"
+  'emacs-lisp-mode
+  '(eldoc-mode linum-mode override-global-mode global-whitespace-mode persistent-scratch-autosave-mode helm-mode undo-tree-mode yas-minor-mode company-mode flycheck-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 24274 23823 59950 408000) (buffer-file-coding-system . prefer-utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/freedom/.emacs.d/elpa/popup-20160709.1429/popup-autoloads.el"
+  "popup-autoloads.el"
+  'emacs-lisp-mode
+  '(eldoc-mode linum-mode override-global-mode global-whitespace-mode persistent-scratch-autosave-mode helm-mode undo-tree-mode yas-minor-mode company-mode flycheck-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 24274 23823 996780 408000) (buffer-file-coding-system . prefer-utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/freedom/.emacs.d/elpa/popwin-0.4/popwin-autoloads.el"
+  "popwin-autoloads.el"
+  'emacs-lisp-mode
+  '(eldoc-mode linum-mode override-global-mode global-whitespace-mode persistent-scratch-autosave-mode helm-mode undo-tree-mode yas-minor-mode company-mode flycheck-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 24274 23824 500932 408000) (buffer-file-coding-system . prefer-utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/freedom/.emacs.d/elpa/package-utils-20180514.1415/package-utils-autoloads.el"
+  "package-utils-autoloads.el"
+  'emacs-lisp-mode
+  '(eldoc-mode linum-mode override-global-mode global-whitespace-mode persistent-scratch-autosave-mode helm-mode undo-tree-mode yas-minor-mode company-mode flycheck-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 24274 17686 555483 408000) (buffer-file-coding-system . prefer-utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/freedom/.emacs.d/elpa/use-package-20191126.2034/use-package-autoloads.el"
+  "use-package-autoloads.el"
+  'emacs-lisp-mode
+  '(eldoc-mode linum-mode override-global-mode global-whitespace-mode persistent-scratch-autosave-mode helm-mode undo-tree-mode yas-minor-mode company-mode flycheck-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 24279 36996 725500 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+

@@ -1,0 +1,9 @@
+(require 'popwin)
+(popwin-mode 1)
+
+(setq popwin:special-display-config '(
+                                      ()
+                                      ()
+                                      ()
+                                      )
+      )

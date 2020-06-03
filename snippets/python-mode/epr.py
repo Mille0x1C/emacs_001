@@ -2,4 +2,5 @@
 # name: epr
 # key: epr
 # --
-eprint("${1:} : " + str($1))
+eprint("${1:} ", end=": ")
+eprint($1)

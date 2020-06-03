@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: xx
+# key: xx
+# --
+\${${1:1}:${2:a}}

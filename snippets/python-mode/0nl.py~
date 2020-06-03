@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: 0nl
+# key: 0nl
+# --
+[0 for i in range(n)]

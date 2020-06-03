@@ -10,5 +10,5 @@
 (global-set-key (kbd "s-n") 'elscreen-create)
 
 
-;;苦肉の策．早く直したい．
-(global-set-key (kbd "C-t C-t") 'transpose-chars)
+;; 苦肉の策．早く直したい．
+;;(global-set-key (kbd "C-t C-t") 'transpose-chars)

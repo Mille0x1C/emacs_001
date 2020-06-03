@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: sin
+# key: sin
+# --
+${1:s} = input().strip()

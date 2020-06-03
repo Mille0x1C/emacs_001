@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: xc
+# key: xc
+# --
+\$${1:1}

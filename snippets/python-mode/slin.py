@@ -2,4 +2,4 @@
 # name: slin
 # key: slin
 # --
-${1:l} = list(map(${2:int}, input().split()))
+${1:a} = list(map(${2:int}, input().strip().split()))

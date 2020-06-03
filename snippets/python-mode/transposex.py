@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: transposex
+# key: transposex
+# --
+${1:trA}  = [${2:list}(${3:col}) for $3 in zip(*${4:A})]
