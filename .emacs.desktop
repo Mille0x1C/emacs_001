@@ -2,82 +2,106 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Thu Jun  4 01:01:40 2020
+;; Created Fri Jun  5 11:41:12 2020
 ;; Desktop file format version 208
 ;; Emacs version 26.3
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (24279 51556 249237 0) (desktop . "208") "freedom@freedoms-MacBook-Air.local" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font-backend mac-ct) (font . "-*-Menlo-normal-normal-normal-*-12-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars) (foreground-color . "gray80") (background-color . "#181a26") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (alpha) (scroll-bar-foreground) (scroll-bar-background) (tool-bar-lines . 0) (title) (inhibit-double-buffering . t) (menu-bar-lines . 0) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 15) (scroll-bar-height . 0) (no-focus-on-map) (no-accept-focus) (fullscreen) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (cursor-color . "green") (environment) (fontsize . 0) (powerline-cache) (display . "Mac") (frameset--id . "7542-CCCD-2AC1-3541") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (explicit-name) (tool-bar-position . top) (frameset--text-pixel-width . 685) (frameset--text-pixel-height . 851) (height . 60) (width . 97) (left . 720) (top . 23)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 10) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 56) (min-pixel-width . 70) (min-pixel-height-ignore . 42) (min-pixel-width-ignore . 70) (min-pixel-height-safe . 14) (min-pixel-width-safe . 14)) leaf (pixel-width . 716) (pixel-height . 837) (total-width . 102) (total-height . 60) (normal-height . 1.0) (normal-width . 1.0) (buffer "2020-06-03.text" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins 3) (scroll-bars nil 3 t nil 0 t) (vscroll . 0) (dedicated) (point . 127) (start . 38))))])
+(setq desktop-saved-frameset [frameset 1 (24281 45256 280131 0) (desktop . "208") "freedom@freedoms-MacBook-Air.local" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font-backend mac-ct) (font . "-*-Menlo-normal-normal-normal-*-12-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars) (foreground-color . "gray80") (background-color . "#181a26") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (alpha) (scroll-bar-foreground) (scroll-bar-background) (tool-bar-lines . 0) (title) (inhibit-double-buffering . t) (menu-bar-lines . 1) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 15) (scroll-bar-height . 0) (no-focus-on-map) (no-accept-focus) (fullscreen) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (cursor-color . "green") (environment) (fontsize . 0) (powerline-cache) (display . "Mac") (frameset--id . "7542-CCCD-2AC1-3541") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (explicit-name) (tool-bar-position . top) (height . 56) (width . 97) (left . 63) (top . 23)) ((min-height . 8) (min-width . 10) (min-height-ignore . 7) (min-width-ignore . 10) (min-height-safe . 2) (min-width-safe . 2) (min-pixel-height . 112) (min-pixel-width . 70) (min-pixel-height-ignore . 98) (min-pixel-width-ignore . 70) (min-pixel-height-safe . 28) (min-pixel-width-safe . 14)) vc (pixel-width . 710) (pixel-height . 770) (total-width . 101) (total-height . 55) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 710) (pixel-height . 378) (total-width . 101) (total-height . 27) (normal-height . 0.5) (normal-width . 1.0) (buffer "2020-06-04.org" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins 3) (scroll-bars nil 3 t nil 0 t) (vscroll . 0) (dedicated) (point . 3555) (start . 3535))) (leaf (last . t) (pixel-width . 710) (pixel-height . 392) (total-width . 101) (total-height . 28) (normal-height . 0.5) (normal-width . 1.0) (buffer "*Help*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins 3) (scroll-bars nil 3 t nil 0 t) (vscroll . 0) (dedicated) (point . 1) (start . 1)))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("dar" "org" "indent" "preference" "define-key" "concat" "C-x C-z" "C-h k" " " "use-package" "use-" "use-package" "initialize" "package" "package-install" "condition-case-no-debug"))
+(setq search-ring '("text" "j" "default" "’ÊÑ’¿ô" "ind" "variable" "ind" "dar" "org" "indent" "preference" "define-key" "concat" "C-x C-z" "C-h k" " "))
 (setq regexp-search-ring nil)
 (setq register-alist '((51 file-query "/Users/freedom/work_togawa/2020_01_18_forZemi/thesis.tex" 10847)))
-(setq file-name-history '("~/.emacs.d/japanize.el" "~/.emacs.d/inits/00_command-keymap_and_fundamentals.el" "~/.emacs.d/init.el" "~/coder/abc169_d.py.py" "~/scratch/2020-06-03.text" "~/scratch/haskell_setup" "~/.emacs.d/inits/83_python.el" "~/.emacs.d/inits/03_whitespace.el" "~/.emacs.d/inits/02_org.el" "~/.emacs.d/inits/00_command-keymap.el~" "/Applications/Emacs.app/Contents/Resources/lisp/emacs-lisp/package-x.el" "/Applications/Emacs.app/Contents/Resources/lisp/emacs-lisp/package.el" "/Applications/Emacs.app/Contents/Resources/lisp/emacs-lisp/package.elc" "~/.emacs.d/elpa/pcre2el-20161120.1303/pcre2el-pkg.el" "~/work_togawa/k_GraphColoring/GraphColoring.py" "~/work_togawa/k_GraphColoring/generate_coefficient.py" "~/work_togawa/k_GraphColoring/generation.py" "~/coder/abc065.py" "~/.emacs.d/inits/00_command-keymap.el" "~/scratch/scratch_2020-01-21.org~" "~/scratch/scratch_2020-01-21.org" "~/scratch/scratch_2020-01-21.tex" "~/gomi/table.csv" "~/.emacs.d/inits/86_flycheck.el" "~/gomi/gomi000_nazo.el~" "~/gomi/gomi001_nazo.el" "~/gomi/gomi000_nazo.el" "~/.emacs.d/inits/01_nazo.el" "~/scratch/scratch_20191208_002.org" "~/scratch/scratch_20191208_001.org" "~/scratch/scratch_20191208.org" "~/scratch/scratch_20200116.org" "~/work_togawa/k_GraphColoring/setup.cfg" "~/.config/flake8" "~/scratch/scratch_2020_01_18.org" "~/work_togawa/2020_01_18_forZemi/main.tex" "~/coder/abc060_b_001.py" "~/.emacs.d/snippets/python-mode/gin_list_comprehension.py" "~/scratch/scratch_2020-01-17.org" "~/scratch/2020-01-17.html" "~/scratch/scratch_2020-01-17.html~" "~/scratch/scratch_2020-01-17.org~" "~/coder/abc110_b.py" "~/coder/abc109_b.py" "~/coder/abc133_b.py" "~/coder/abc066_b.py" "~/.emacs.d/elpa/package-utils-20170222.2352/package-utils-pkg.el" "~/.emacs.d/elpa/tabbar-20180726.1735/tabbar.el" "~/coder/abc140_a.py" "~/scratch/scratch_20190111.org" "~/backup/.bashrc" "~/.bashrc" "~/scratch/scratch_elisp.el" "~/scratch/scratch_20191208.html~" "~/scratch/scratch_20191208.html" "~/stm/motoro_class.py" "~/stm/motor_class.py" "~/stm/motoro_class.oy" "~/stm/#motor_class.py#" "~/stm/’¥¿’¥¸’¥Þddisa/DDISA_firm/Tool/ddisa_setting.py" "~/raspberrypi3/motor.py" "~/coder/#abc129_c.py#" "~/coder/abc113_c3.py" "~/coder/sumitb2019_c.py" "~/coder/abc145_c_001.py" "~/scratch/scratch_20191209.org" "~/gomi/isizaki.html" "~/coder/abc098_b.py" "~/work/sample_tex.tex" "~/work/sample_latex.tex" "~/scratch/scratch_20191208_001.html" "~/#scratcg_20191206.org#" "~/#scratc_20191208.org#" "~/scratcg_20191206.org" "~/scratc_20191208.org" "~/Documents/scratch11132019.txt" "~/Documents/scratch_org_20191129" "~/Documents/scratch_org_20191129.org" "~/coder/scratch.txt" "~/coder/sumitb2019_a.py" "~/Documents/scratch_10232019.txt" "~/Documents/scratch_10102019_002.txt" "~/Documents/#scratch_org_20191129#" "~/coder/#sumitb2019_d.py#"))
-(setq kill-ring '("(unless window-system" ";;; janpanaize\n(set-default-coding-systems 'utf-8)\n(set-keyboard-coding-system 'utf-8)\n(set-terminal-coding-system 'utf-8)\n(set-buffer-file-coding-system 'utf-8)\n" "(unless window-system\n  (load-theme 'manoj-dark t)\n  )\n" "\\begin{math}\n\n\\end{math}\n" "`org-cdlatex-mode' Minor Mode Bindings Starting With C-c:" "    r" "r)" "xyz" "abcdef" "abcdef" "xyz" "xyz" "abcdef" "abcdef" "xyz" "xyz" "abcdef" "abcdef" "xyz" "xyz" "abcdef" "abcdef" "xyz" "xyz" "abcdef" "insert-kbd-macro is an interactive autoloaded compiled Lisp function\nin ’¡Æmacros.el’¡Ç.\n\n(insert-kbd-macro MACRONAME &optional KEYS)\n\nInsert in buffer the definition of kbd macro MACRONAME, as Lisp code.\nMACRONAME should be a symbol.\nOptional second arg KEYS means also record the keys it is on\n(this is the prefix argument, when calling interactively).\n\nThis Lisp code will, when executed, define the kbd macro with the same\ndefinition it has now.  If you say to record the keys, the Lisp code\nwill also rebind those keys to the macro.  Only global key bindings\nare recorded since executing this Lisp code always makes global\nbindings.\n\nTo save a kbd macro, visit a file of Lisp code such as your ’¡Æ~/.emacs’¡Ç,\nuse this command, and then save the file.\n\n[back]\n" "xyz" "abcdef" "abcdef" "xyz" "abcdef" "xyz" "xyz" "abcdef" "abcdef" "xyz" "xyz" "abcdef" "abcdef" "xyz" "xyz" "abcdef" "abcdef" "xyz" "xyz" "abcdef" "abcdef" "xyz" "xyz" "abcdef" "abcdef" "xyz" "xyz" "abcdef" "abcdef" "xyz" "xyz" "abcdef" "abcdef" "xyz"))
+(setq file-name-history '("~/.emacs.d/README.md" "~/scratch/2020-06-03.org" "~/.emacs.d/inits/02_org.el" "~/.emacs.d/inits/03_whitespace.el" "~/.emacs.d/inits/00_command-keymap_and_fundamentals.el" "~/.emacs.d/init.el" "~/scratch/2020-06-03.text" "~/.emacs.d/japanize.el" "~/coder/abc169_d.py.py" "~/scratch/haskell_setup" "~/.emacs.d/inits/83_python.el" "~/.emacs.d/inits/00_command-keymap.el~" "/Applications/Emacs.app/Contents/Resources/lisp/emacs-lisp/package-x.el" "/Applications/Emacs.app/Contents/Resources/lisp/emacs-lisp/package.el" "/Applications/Emacs.app/Contents/Resources/lisp/emacs-lisp/package.elc" "~/.emacs.d/elpa/pcre2el-20161120.1303/pcre2el-pkg.el" "~/work_togawa/k_GraphColoring/GraphColoring.py" "~/work_togawa/k_GraphColoring/generate_coefficient.py" "~/work_togawa/k_GraphColoring/generation.py" "~/coder/abc065.py" "~/.emacs.d/inits/00_command-keymap.el" "~/scratch/scratch_2020-01-21.org~" "~/scratch/scratch_2020-01-21.org" "~/scratch/scratch_2020-01-21.tex" "~/gomi/table.csv" "~/.emacs.d/inits/86_flycheck.el" "~/gomi/gomi000_nazo.el~" "~/gomi/gomi001_nazo.el" "~/gomi/gomi000_nazo.el" "~/.emacs.d/inits/01_nazo.el" "~/scratch/scratch_20191208_002.org" "~/scratch/scratch_20191208_001.org" "~/scratch/scratch_20191208.org" "~/scratch/scratch_20200116.org" "~/work_togawa/k_GraphColoring/setup.cfg" "~/.config/flake8" "~/scratch/scratch_2020_01_18.org" "~/work_togawa/2020_01_18_forZemi/main.tex" "~/coder/abc060_b_001.py" "~/.emacs.d/snippets/python-mode/gin_list_comprehension.py" "~/scratch/scratch_2020-01-17.org" "~/scratch/2020-01-17.html" "~/scratch/scratch_2020-01-17.html~" "~/scratch/scratch_2020-01-17.org~" "~/coder/abc110_b.py" "~/coder/abc109_b.py" "~/coder/abc133_b.py" "~/coder/abc066_b.py" "~/.emacs.d/elpa/package-utils-20170222.2352/package-utils-pkg.el" "~/.emacs.d/elpa/tabbar-20180726.1735/tabbar.el" "~/coder/abc140_a.py" "~/scratch/scratch_20190111.org" "~/backup/.bashrc" "~/.bashrc" "~/scratch/scratch_elisp.el" "~/scratch/scratch_20191208.html~" "~/scratch/scratch_20191208.html" "~/stm/motoro_class.py" "~/stm/motor_class.py" "~/stm/motoro_class.oy" "~/stm/#motor_class.py#" "~/stm/’¥¿’¥¸’¥Þddisa/DDISA_firm/Tool/ddisa_setting.py" "~/raspberrypi3/motor.py" "~/coder/#abc129_c.py#" "~/coder/abc113_c3.py" "~/coder/sumitb2019_c.py" "~/coder/abc145_c_001.py" "~/scratch/scratch_20191209.org" "~/gomi/isizaki.html" "~/coder/abc098_b.py" "~/work/sample_tex.tex" "~/work/sample_latex.tex" "~/scratch/scratch_20191208_001.html" "~/#scratcg_20191206.org#" "~/#scratc_20191208.org#" "~/scratcg_20191206.org" "~/scratc_20191208.org" "~/Documents/scratch11132019.txt" "~/Documents/scratch_org_20191129" "~/Documents/scratch_org_20191129.org" "~/coder/scratch.txt" "~/coder/sumitb2019_a.py" "~/Documents/scratch_10232019.txt" "~/Documents/scratch_10102019_002.txt" "~/Documents/#scratch_org_20191129#" "~/coder/#sumitb2019_d.py#"))
+(setq kill-ring '("There are a number of Emacs versions for macOS, including:\n\nThe official Emacs on macOS is build using the \"NS\" port, also known as the \"cocoa\" port. As the name suggests, this port of Emacs originates in Emacs for the NextSTEP operating system and has been the official Emacs GUI on macOS since Emacs 23.\nMitsuharu Yamamoto-san maintains the \"Mac port\" of Emacs. It provides an alternative GUI with a different feature set compared to the NS port. This originates from the Emacs port to Mac OS 8/9 and the \"Carbon\" port of Emacs 22. (This port is also referred to as the \"railway cat\" Emacs, as this is where the brew recipe is hosted.)\nAquamacs is based on the NS port of Emacs and contains a number of enhancements making it behave more like traditional macOS applications.\nX11: It is possible to build Emacs with the same GUI as used on X11 system, however it requires a X11 server to run. Unfortunately, the end result will not have macOS look and feel -- things like menus looks as though you were running on a unix-like system. In fact, this is not one GUI but a family of GUI:s as it's possible to build using different X11 support libraries like GTK+.\nTerminal only. This gives you an Emacs that only can run in a terminal window, much like a GUI Emacs behaves when passed the -nw option.\nSo, which should you pick?" "default-frame-alis" "'(ime-font . (w32-logfont \"SH G30-Mz\"\n                               0 14 400 0 nil nil nil\n                               128 1 3 49))\n" "'(ime-font . (w32-logfont \"SH G30-Mz\"\n                               0 14 400 0 nil nil nil\n                               128 1 3 49))" "aaa ’¤¢sd’¤Õ’¤¡sdf aaa\n" "                         ;;2Bspace-mark" "                         ;2Bspace        ; ’Á´’³Ñ’¥¹’¥Ú’¡¼’¥¹" "aaa dfssfdsfdssdfsfd dsf" ";; (setq whitespace-space-regexp \"\\\\( \\\\)\")" "\\\\(^ +\\\\| +$\\\\)" "\\u00A0" "asdfa ’¤¢sdfsdf’¤µf ’¤¢sdfsf’¤À ’¤¢sdfsd’¤Õ’¤¡  asdfasdfa" " ’Æü’ËÜ’¸ì’¤ò’¤Á’¤é’¤Ä’¤«’¤»’¤Ê’¤¤’¡ª\n(setq redisplay-dont-pause nil)" "(mac-auto-ascii-mode 1)" "input-pending-p" "aaa  " "\n;;(setq  ’¤¢sd’¤Õ’¤¡sd’¤Õ’¤¡ ’¤ªl’Á°’¤Ï" "whitespace-style" "whitespace-style" "whitespace-style" "whitespace-empty is a variable defined in ’¡Æwhitespace.el’¡Ç.\nIts value is ’¡Æwhitespace-empty’¡Ç\n\n  This variable is obsolete since 24.4;\n  use the face instead.\n\nDocumentation:\nSymbol face used to visualize empty lines at beginning and/or end of buffer.\nUsed when ’¡Æwhitespace-style’¡Ç includes the value ’¡Æempty’¡Ç.\n" "Hide Whitespace Empty face: [sample]\n    State : SAVED and set.\n   Face used to visualize empty lines at beginning and/or end of buffer.\n   [X] :\n       Underline: Value Menu On:\n       Color: Value Menu Foreground Color\n       Style: Value Menu Line\n   [X] :\n       Foreground: gray20      Choose   (sample)\n" "(define-key org-mode-map (kbd \"C-,\") nil)\n(define-key org-mode-map [?\\t] nil)\n(define-key org-mode-map (kbd \"<tab>\") nil)\n(define-key org-mode-map (kbd \"C-c <tab>\") 'org-cycle)" "(define-key org-mode-map (kbd \"C-,\") nil)\n(define-key org-mode-map [?\\t] nil)\n(define-key org-mode-map (kbd \"<tab>\") nil)\n(define-key org-mode-map (kbd \"C-c <tab>\") 'org-cycle)" "org capture" "Emacs’Àß’Äê’ÊÑ’¿ô ’¤Î’Àß’Äê" "\n\n;; notes.org ’¤ò’³è’ÍÑ’¤¹’¤ë’¤È’¤¤’¤¤’¤Ç’¤¹’¤è\n(global-set-key (kbd \"C-M-^\") '(lambda () (interactive)\n                                 (show-org-buffer \"notes.org\")))\n\n;; org-mode’¤ò’µ¯’Æ°’¤·’¤¿’¤È’¤­’¡¤org-cdlatex-mode’¤ò’¼«’Æ°’¤Ç’µ¯’Æ°’¤¹’¤ë\n(add-hook 'org-mode-hook 'turn-on-org-cdlatex)\n;; org-mode’¤ò’µ¯’Æ°’¤·’¤¿’¤È’¤­’¡¤’¼«’Æ°’¤Ç’ÀÞ’¤ê’ÊÖ’¤·(toggle-truncate-lines)’¤ò’È¯’Æ°\n(add-hook 'org-mode-hook 'toggle-truncate-lines)\n\n\n;; latex ’¤Î ’Ê¸’»ú’Éý ’¤Î ’Àß’Äê / " "Emacs’Àß’Äê’ÊÑ’¿ô ’¤Î’Àß’Äê" "indent-for-tab-command" "<tab>" "(define-key org-mode-map [?\\t] nil)" "global-unset-key" "org-capture is an interactive autoloaded Lisp function in\n’¡Æorg-capture.el’¡Ç.\n\nIt is bound to C-c c.\n\n(org-capture &optional GOTO KEYS)\n\nCapture something.\n\nThis will let you select a template from ’¡Æorg-capture-templates’¡Ç, and\nthen file the newly captured information.  The text is immediately\ninserted at the target location, and an indirect buffer is shown where\nyou can edit it.  Pressing ’¡ÆC-c C-c’¡Ç brings you back to the previous\nstate of Emacs, so that you can continue your work.\n\nWhen called interactively with a ’¡ÆC-u’¡Ç prefix argument GOTO, don’¡Çt\ncapture anything, just go to the file/headline where the selected\ntemplate stores its notes.\n\nWith a ’¡ÆC-u C-u’¡Ç prefix argument, go to the last note stored.\n\nWhen called with a ’¡ÆC-0’¡Ç (zero) prefix, insert a template at point.\n\nWhen called with a ’¡ÆC-1’¡Ç (one) prefix, force prompting for a date when\na datetree entry is made.\n\nELisp programs can set KEYS to a string associated with a template\nin ’¡Æorg-capture-templates’¡Ç.  In this case, interactive selection\nwill be bypassed.\n\nIf ’¡Æorg-capture-use-agenda-date’¡Ç is non-nil, capturing from the\nagenda will use the date at point as the default date.  Then, a\n’¡ÆC-1’¡Ç prefix will tell the capture process to use the HH:MM time\nof the day at point (if any) or the current HH:MM time.\n" "  (setq org-hide-leading-stars t)" "org-indent-mode is an interactive autoloaded compiled Lisp function in\n’¡Æorg-indent.el’¡Ç.\n\n(org-indent-mode &optional ARG)\n\nWhen active, indent text according to outline structure.\n\nInternally this works by adding ’¡Æline-prefix’¡Ç and ’¡Æwrap-prefix’¡Ç\nproperties, after each buffer modification, on the modified zone.\n\nThe process is synchronous.  Though, initial indentation of\nbuffer, which can take a few seconds on large buffers, is done\nduring idle time." "Documentation:\nOptions for creating images from LaTeX fragments.\nThis is a property list with the following properties:" "org-format-latex-options" "org-mode’¤ò’µ¯’Æ°’¤·’¤¿’¤È’¤­’¡¤org-cdlatex-mode’¤ò’¼«’Æ°’¤Ç’µ¯’Æ°’¤¹’¤ë" "(define-key org-mode-map (kbd \"M-<RET>\") nil) ; remove old binding\n(define-key org-mode-map (kbd \"C-c n\") 'org-insert-heading) ; add new tmux-friendly binding\n" "language switches header arguments" "org-insert-heading is bound to M-<RET> by default, you just need to remap it\n\n(define-key org-mode-map (kbd \"M-<RET>\") nil) ; remove old binding\n(define-key org-mode-map (kbd \"C-c n\") 'org-insert-heading) ; add new tmux-friendly binding" " ( org-cycle-agenda-files)" "org-cycle-agenda-files" "org-cycle-agenda-files" "org-cycle-agenda-files" "C-c TAB (translated from C-c <tab>) runs the command org-ctrl-c-tab\n(found in org-mode-map), which is an interactive compiled Lisp\nfunction in ’¡Æorg.el’¡Ç.\n\nIt is bound to C-c TAB.\n\n(org-ctrl-c-tab &optional ARG)\n\nToggle columns width in a table, or show children.\nCall ’¡Æorg-table-toggle-column-width’¡Ç if point is in a table.\nOtherwise, call ’¡Æorg-show-children’¡Ç.  ARG is the level to hide.\n\n" "(setq org-indent-mode t)" "load-theme is an interactive compiled Lisp function in ’¡Æcustom.el’¡Ç.\n\n(load-theme THEME &optional NO-CONFIRM NO-ENABLE)\n\n:before advice: No documentation\n\nLoad Custom theme named THEME from its file.\nThe theme file is named THEME-theme.el, in one of the directories\nspecified by ’¡Æcustom-theme-load-path’¡Ç.\n\nIf the theme is not considered safe by ’¡Æcustom-safe-themes’¡Ç,\nprompt the user for confirmation before loading it.  But if\noptional arg NO-CONFIRM is non-nil, load the theme without\nprompting.\n\nNormally, this function also enables THEME.  If optional arg\nNO-ENABLE is non-nil, load the theme but don’¡Çt enable it, unless\nthe theme was already enabled.\n\nThis function is normally called through Customize when setting\n’¡Æcustom-enabled-themes’¡Ç.  If used directly in your init file, it\nshould be called with a non-nil NO-CONFIRM argument, or after\n’¡Æcustom-safe-themes’¡Ç has been loaded.\n\nReturn t if THEME was successfully loaded, nil otherwise.\n\n[back]\n" "Enabled minor modes: Async-Bytecomp-Package Auto-Composition\nAuto-Compression Auto-Encryption Blink-Cursor Cl-Old-Struct-Compat\nColumn-Number Company Desktop-Save Diff-Auto-Refine Eldoc\nElectric-Indent Electric-Pair File-Name-Shadow Flycheck Font-Lock\nGlobal-Company Global-Eldoc Global-Flycheck Global-Font-Lock\nGlobal-Linum Global-Undo-Tree Global-Whitespace Helm Line-Number Linum\nMac-Mouse-Wheel Menu-Bar Org-Bullets Org-Cdlatex Org-Indent\nOverride-Global Persistent-Scratch-Autosave Popwin Pyvenv\nShell-Dirtrack Show-Paren Tooltip Transient-Mark Undo-Tree Yas\nYas-Global\n\n(Information about these minor modes follows the major mode info.)\n\nOrg mode defined in ’¡Æorg.el’¡Ç:\nOutline-based notes management and organizer, alias\n\"Carsten’¡Çs outline-mode for keeping track of everything.\"\n\nOrg mode develops organizational tasks around a NOTES file which\ncontains information about projects as plain text.  Org mode is\nimplemented on top of Outline mode, which is ideal to keep the content\nof large files well structured.  It supports ToDo items, deadlines and\ntime stamps, which magically appear in the diary listing of the Emacs\ncalendar.  Tables are easily created with a built-in table editor.\nPlain text URL-like links connect to websites, emails (VM), Usenet\nmessages (Gnus), BBDB entries, and any files related to the project.\nFor printing and sharing of notes, an Org file (or a part of it)\ncan be exported as a structured ASCII or HTML file.\n\nThe following commands are available:\n\nkey             binding\n---             -------\n\nC-c             Prefix Command\nTAB             org-cycle\nC-j             org-return-indent\nRET             org-return\nC-x             Prefix Command\nESC             Prefix Command\n|               org-force-self-insert\nS-TAB           org-shifttab\nS-RET           org-table-copy-down\nC-#             org-table-rotate-recalc-marks\nC-'             org-cycle-agenda-files\nC-,             org-cycle-agenda-files\n<C-M-S-left>    org-decrease-number-at-point\n<C-M-S-right>   org-increase-number-at-point\n<C-S-down>      org-shiftcontroldown\n<C-S-left>      org-shiftcontrolleft\n<C-S-return>    org-insert-todo-heading-respect-content\n<C-S-right>     org-shiftcontrolright\n<C-S-up>        org-shiftcontrolup\n<C-return>      org-insert-heading-respect-content\n<C-tab>         org-force-cycle-archived\n<M-S-down>      org-shiftmetadown\n<M-S-left>      org-shiftmetaleft\n<M-S-return>    org-insert-todo-heading\n<M-S-right>     org-shiftmetaright\n<M-S-up>        org-shiftmetaup\n<M-down>        org-metadown\n<M-left>        org-metaleft\n<M-return>      org-meta-return\n<M-right>       org-metaright\n<M-up>          org-metaup\n<S-down>        org-shiftdown\n<S-iso-leftab>  org-shifttab\n<S-left>        org-shiftleft\n<S-return>      org-table-copy-down\n<S-right>       org-shiftright\n<S-tab>         org-shifttab\n<S-up>          org-shiftup\n<backtab>       org-shifttab\n<remap>         Prefix Command\n<tab>           org-cycle\n\nC-x n           Prefix Command\n\nM-RET           org-meta-return\nC-M-t           org-transpose-element\nM-h             org-mark-element\nM-{             org-backward-element\nM-}             org-forward-element\nM-S-RET         org-insert-todo-heading\nESC <S-down>    org-shiftmetadown\nESC <S-left>    org-shiftmetaleft\nESC <S-return>  org-insert-todo-heading\nESC <S-right>   org-shiftmetaright\nESC <S-up>      org-shiftmetaup\nESC <down>      org-metadown\nESC <return>    org-meta-return\nESC <right>     org-metaright\nESC <up>        org-metaup\n\nC-c C-a         org-attach\nC-c C-b         org-backward-heading-same-level\nC-c C-c         org-ctrl-c-ctrl-c\nC-c C-d         org-deadline\nC-c C-e         org-export-dispatch\nC-c C-f         org-forward-heading-same-level\nC-c TAB         org-ctrl-c-tab\nC-c C-j         org-goto\nC-c C-k         org-kill-note-or-show-branches\nC-c C-l         org-insert-link\nC-c RET         org-ctrl-c-ret\nC-c C-o         org-open-at-point\nC-c C-q         org-set-tags-command\nC-c C-r         org-reveal\nC-c C-s         org-schedule\nC-c C-t         org-todo\nC-c C-v         Prefix Command\nC-c C-w         org-refile\nC-c C-x         Prefix Command\nC-c C-y         org-evaluate-time-range\nC-c C-z         org-add-note\nC-c ESC         Prefix Command\nC-c C-^         org-up-element\nC-c C-_         org-down-element\nC-c SPC         org-table-blank-field\nC-c !           org-time-stamp-inactive\n  (that binding is currently shadowed by another mode)\nC-c \"           Prefix Command\nC-c #           org-update-statistics-cookies\nC-c $           org-archive-subtree\nC-c %           org-mark-ring-push\nC-c &           org-mark-ring-goto\n  (that binding is currently shadowed by another mode)\nC-c '           org-edit-special\nC-c *           org-ctrl-c-star\nC-c +           org-table-sum\nC-c ,           org-priority\nC-c -           org-ctrl-c-minus\nC-c .           org-time-stamp\nC-c /           org-sparse-tree\nC-c :           org-toggle-fixed-width\nC-c ;           org-toggle-comment\nC-c <           org-date-from-calendar\nC-c =           org-table-eval-formula\nC-c >           org-goto-calendar\nC-c ?           org-table-field-info\nC-c @           org-mark-subtree\nC-c [           org-agenda-file-to-front\nC-c \\           org-match-sparse-tree\nC-c ]           org-remove-file\nC-c ^           org-sort\nC-c `           org-table-edit-field\nC-c {           org-table-toggle-formula-debugger\n  (that binding is currently shadowed by another mode)\nC-c |           org-table-create-or-convert-from-region\nC-c }           org-table-toggle-coordinate-overlays\nC-c ~           org-table-create-with-table.el\nC-c C-*         org-list-make-subtree\nC-c C-,         org-insert-structure-template\n\n<remap> <backward-paragraph>    org-backward-paragraph\n<remap> <backward-sentence>     org-backward-sentence\n<remap> <comment-dwim>          org-comment-dwim\n<remap> <delete-backward-char>  org-delete-backward-char\n<remap> <delete-char>           org-delete-char\n<remap> <delete-indentation>    org-delete-indentation\n<remap> <fill-paragraph>        org-fill-paragraph\n<remap> <forward-paragraph>     org-forward-paragraph\n<remap> <forward-sentence>      org-forward-sentence\n<remap> <kill-line>             org-kill-line\n<remap> <move-beginning-of-line>\n                                org-beginning-of-line\n<remap> <move-end-of-line>      org-end-of-line\n<remap> <open-line>             org-open-line\n<remap> <outline-backward-same-level>\n                                org-backward-heading-same-level\n<remap> <outline-demote>        org-demote-subtree\n<remap> <outline-forward-same-level>\n                                org-forward-heading-same-level\n<remap> <outline-insert-heading>\n                                org-ctrl-c-ret\n<remap> <outline-mark-subtree>  org-mark-subtree\n<remap> <outline-next-visible-heading>\n                                org-next-visible-heading\n<remap> <outline-previous-visible-heading>\n                                org-previous-visible-heading\n<remap> <outline-promote>       org-promote-subtree\n<remap> <outline-show-branches>\n                                org-kill-note-or-show-branches\n<remap> <outline-show-subtree>  org-show-subtree\n<remap> <self-insert-command>   org-self-insert-command\n<remap> <show-children>         org-show-children\n<remap> <transpose-words>       org-transpose-words\n<remap> <yank>                  org-yank\n\nC-c C-a         outline-show-all\n  (that binding is currently shadowed by another mode)\nC-c C-b         outline-backward-same-level\n  (that binding is currently shadowed by another mode)\nC-c C-c         outline-hide-entry\n  (that binding is currently shadowed by another mode)\nC-c C-d         outline-hide-subtree\n  (that binding is currently shadowed by another mode)\nC-c C-e         outline-show-entry\n  (that binding is currently shadowed by another mode)\nC-c C-f         outline-forward-same-level\n  (that binding is currently shadowed by another mode)\nC-c TAB         outline-show-children\n  (that binding is currently shadowed by another mode)\nC-c C-k         outline-show-branches\n  (that binding is currently shadowed by another mode)\nC-c C-l         outline-hide-leaves\n  (that binding is currently shadowed by another mode)\nC-c RET         outline-insert-heading\n  (that binding is currently shadowed by another mode)\nC-c C-n         outline-next-visible-heading\nC-c C-o         outline-hide-other\n  (that binding is currently shadowed by another mode)\nC-c C-p         outline-previous-visible-heading\nC-c C-q         outline-hide-sublevels\n  (that binding is currently shadowed by another mode)\nC-c C-s         outline-show-subtree\n  (that binding is currently shadowed by another mode)\nC-c C-t         outline-hide-body\n  (that binding is currently shadowed by another mode)\nC-c C-u         outline-up-heading\nC-c C-v         outline-move-subtree-down\n  (that binding is currently shadowed by another mode)\nC-c C-^         outline-move-subtree-up\n  (that binding is currently shadowed by another mode)\nC-c @           outline-mark-subtree\n  (that binding is currently shadowed by another mode)\nC-c C-<         outline-promote\nC-c C->         outline-demote\n\nC-M-i           ispell-complete-word\n\nC-x n b         org-narrow-to-block\nC-x n e         org-narrow-to-element\nC-x n s         org-narrow-to-subtree\n\nC-c C-v C-a     org-babel-sha1-hash\nC-c C-v C-b     org-babel-execute-buffer\nC-c C-v C-c     org-babel-check-src-block\nC-c C-v C-d     org-babel-demarcate-block\nC-c C-v C-e     org-babel-execute-maybe\nC-c C-v C-f     org-babel-tangle-file\nC-c C-v TAB     org-babel-view-src-block-info\nC-c C-v C-j     org-babel-insert-header-arg\nC-c C-v C-l     org-babel-load-in-session\nC-c C-v C-n     org-babel-next-src-block\nC-c C-v C-o     org-babel-open-src-block-result\nC-c C-v C-p     org-babel-previous-src-block\nC-c C-v C-r     org-babel-goto-named-result\nC-c C-v C-s     org-babel-execute-subtree\nC-c C-v C-t     org-babel-tangle\nC-c C-v C-u     org-babel-goto-src-block-head\nC-c C-v C-v     org-babel-expand-src-block\nC-c C-v C-x     org-babel-do-key-sequence-in-edit-buffer\nC-c C-v C-z     org-babel-switch-to-session\nC-c C-v ESC     Prefix Command\nC-c C-v I       org-babel-view-src-block-info\nC-c C-v a       org-babel-sha1-hash\nC-c C-v b       org-babel-execute-buffer\nC-c C-v c       org-babel-check-src-block\nC-c C-v d       org-babel-demarcate-block\nC-c C-v e       org-babel-execute-maybe\nC-c C-v f       org-babel-tangle-file\nC-c C-v g       org-babel-goto-named-src-block\nC-c C-v h       org-babel-describe-bindings\nC-c C-v i       org-babel-lob-ingest\nC-c C-v j       org-babel-insert-header-arg\nC-c C-v k       org-babel-remove-result-one-or-many\nC-c C-v l       org-babel-load-in-session\nC-c C-v n       org-babel-next-src-block\nC-c C-v o       org-babel-open-src-block-result\nC-c C-v p       org-babel-previous-src-block\nC-c C-v r       org-babel-goto-named-result\nC-c C-v s       org-babel-execute-subtree\nC-c C-v t       org-babel-tangle\nC-c C-v u       org-babel-goto-src-block-head\nC-c C-v v       org-babel-expand-src-block\nC-c C-v x       org-babel-do-key-sequence-in-edit-buffer\nC-c C-v z       org-babel-switch-to-session-with-code\n\nC-c \" a         orgtbl-ascii-plot\nC-c \" g         org-plot/gnuplot\n\nC-c C-M-l       org-insert-all-links\nC-c M-b         org-previous-block\nC-c M-f         org-next-block\nC-c M-l         org-insert-last-stored-link\nC-c M-w         org-copy\n\nC-c C-x C-a     org-archive-subtree-default\nC-c C-x C-b     org-toggle-checkbox\nC-c C-x C-c     org-columns\nC-c C-x C-d     org-clock-display\nC-c C-x C-f     org-emphasize\nC-c C-x TAB     org-clock-in\nC-c C-x C-j     org-clock-goto\nC-c C-x C-l     org-latex-preview\nC-c C-x C-n     org-next-link\nC-c C-x C-o     org-clock-out\nC-c C-x C-p     org-previous-link\nC-c C-x C-q     org-clock-cancel\nC-c C-x C-s     org-archive-subtree\nC-c C-x C-t     org-toggle-time-stamp-overlays\nC-c C-x C-u     org-dblock-update\nC-c C-x C-v     org-toggle-inline-images\nC-c C-x C-w     org-cut-special\nC-c C-x C-x     org-clock-in-last\nC-c C-x C-y     org-paste-special\nC-c C-x C-z     org-resolve-clocks\nC-c C-x ESC     Prefix Command\nC-c C-x !       org-reload\nC-c C-x ,       org-timer-pause-or-continue\nC-c C-x -       org-timer-item\nC-c C-x .       org-timer\nC-c C-x 0       org-timer-start\nC-c C-x ;       org-timer-set-timer\nC-c C-x <       org-agenda-set-restriction-lock\nC-c C-x >       org-agenda-remove-restriction-lock\nC-c C-x A       org-archive-to-archive-sibling\nC-c C-x E       org-inc-effort\nC-c C-x G       org-feed-goto-inbox\nC-c C-x I       org-info-find-node\nC-c C-x P       org-set-property-and-value\nC-c C-x [       org-reftex-citation\nC-c C-x \\       org-toggle-pretty-entities\nC-c C-x _       org-timer-stop\nC-c C-x a       org-toggle-archive-tag\nC-c C-x b       org-tree-to-indirect-buffer\nC-c C-x c       org-clone-subtree-with-time-shift\nC-c C-x d       org-insert-drawer\nC-c C-x e       org-set-effort\nC-c C-x f       org-footnote-action\nC-c C-x g       org-feed-update-all\nC-c C-x o       org-toggle-ordered-property\nC-c C-x p       org-set-property\nC-c C-x q       org-toggle-tags-groups\nC-c C-x v       org-copy-visible\nC-c C-x x       org-dynamic-block-insert-dblock\n\nC-c C-v C-M-h   org-babel-mark-block\n\nC-c C-x C-M-v   org-redisplay-inline-images\nC-c C-x M-w     org-copy-special\n\n\n\nIn addition to any hooks its parent mode ’¡Æoutline-mode’¡Ç might have run,\nthis mode runs the hook ’¡Æorg-mode-hook’¡Ç, as the final step\nduring initialization.\n\f\nAsync-Bytecomp-Package minor mode (no indicator):\nByte compile asynchronously packages installed with package.el.\nAsync compilation of packages can be controlled by\n’¡Æasync-bytecomp-allowed-packages’¡Ç.\n\n(fn &optional ARG)\n\f\nAuto-Composition minor mode (no indicator):\nToggle Auto Composition mode.\nWith a prefix argument ARG, enable Auto Composition mode if ARG\nis positive, and disable it otherwise.  If called from Lisp,\nenable the mode if ARG is omitted or nil.\n\nWhen Auto Composition mode is enabled, text characters are\nautomatically composed by functions registered in\n’¡Æcomposition-function-table’¡Ç.\n\nYou can use ’¡Æglobal-auto-composition-mode’¡Ç to turn on\nAuto Composition mode in all buffers (this is the default).\n\f\nAuto-Compression minor mode (no indicator):\nToggle Auto Compression mode.\nWith a prefix argument ARG, enable Auto Compression mode if ARG\nis positive, and disable it otherwise.  If called from Lisp,\nenable the mode if ARG is omitted or nil.\n\nAuto Compression mode is a global minor mode.  When enabled,\ncompressed files are automatically uncompressed for reading, and\ncompressed when writing.\n\f\nAuto-Encryption minor mode (no indicator):\nToggle automatic file encryption/decryption (Auto Encryption mode).\nWith a prefix argument ARG, enable Auto Encryption mode if ARG is\npositive, and disable it otherwise.  If called from Lisp, enable\nthe mode if ARG is omitted or nil.\n\n(fn &optional ARG)\n\f\nBlink-Cursor minor mode (no indicator):\nToggle cursor blinking (Blink Cursor mode).\nWith a prefix argument ARG, enable Blink Cursor mode if ARG is\npositive, and disable it otherwise.  If called from Lisp, enable\nthe mode if ARG is omitted or nil.\n\nIf the value of ’¡Æblink-cursor-blinks’¡Ç is positive (10 by default),\nthe cursor stops blinking after that number of blinks, if Emacs\ngets no input during that time.\n\nSee also ’¡Æblink-cursor-interval’¡Ç and ’¡Æblink-cursor-delay’¡Ç.\n\nThis command is effective only on graphical frames.  On text-only\nterminals, cursor blinking is controlled by the terminal.\n\n(fn &optional ARG)\n\f\nCl-Old-Struct-Compat minor mode (no indicator):\nEnable backward compatibility with old-style structs.\nThis can be needed when using code byte-compiled using the old\nmacro-expansion of ’¡Æcl-defstruct’¡Ç that used vectors objects instead\nof record objects.\n\n(fn &optional ARG)\n\f\nColumn-Number minor mode (no indicator):\nToggle column number display in the mode line (Column Number mode).\nWith a prefix argument ARG, enable Column Number mode if ARG is\npositive, and disable it otherwise.\n\nIf called from Lisp, enable the mode if ARG is omitted or nil.\n\n(fn &optional ARG)\n\f\nCompany minor mode (no indicator):\n\"complete anything\"; is an in-buffer completion framework.\nCompletion starts automatically, depending on the values\n’¡Æcompany-idle-delay’¡Ç and ’¡Æcompany-minimum-prefix-length’¡Ç.\n\nCompletion can be controlled with the commands:\n’¡Æcompany-complete-common’¡Ç, ’¡Æcompany-complete-selection’¡Ç, ’¡Æcompany-complete’¡Ç,\n’¡Æcompany-select-next’¡Ç, ’¡Æcompany-select-previous’¡Ç.  If these commands are\ncalled before ’¡Æcompany-idle-delay’¡Ç, completion will also start.\n\nCompletions can be searched with ’¡Æcompany-search-candidates’¡Ç or\n’¡Æcompany-filter-candidates’¡Ç.  These can be used while completion is\ninactive, as well.\n\nThe completion data is retrieved using ’¡Æcompany-backends’¡Ç and displayed\nusing ’¡Æcompany-frontends’¡Ç.  If you want to start a specific backend, call\nit interactively or use ’¡Æcompany-begin-backend’¡Ç.\n\nBy default, the completions list is sorted alphabetically, unless the\nbackend chooses otherwise, or ’¡Æcompany-transformers’¡Ç changes it later.\n\nregular keymap (’¡Æcompany-mode-map’¡Ç):\n\nkey             binding\n---             -------\n\n\nkeymap during active completions (’¡Æcompany-active-map’¡Ç):\n\nkey             binding\n---             -------\n\nC-d             company-show-doc-buffer\nC-g             company-abort\nTAB             company-complete-common\nRET             company-complete-selection\nC-n             company-select-next\nC-p             company-select-previous\nC-s             company-search-candidates\nC-w             company-show-location\nESC             Prefix Command\nC-S-h           company-show-doc-buffer\n<down>          company-select-next-or-abort\n<down-mouse-1>  ignore\n<down-mouse-3>  ignore\n<f1>            company-show-doc-buffer\n<mouse-1>       company-complete-mouse\n<mouse-3>       company-select-mouse\n<remap>         Prefix Command\n<return>        company-complete-selection\n<tab>           company-complete-selection\n<up>            company-select-previous-or-abort\n<up-mouse-1>    ignore\n<up-mouse-3>    ignore\n\n<remap> <scroll-down-command>   company-previous-page\n<remap> <scroll-up-command>     company-next-page\n\nC-M-s           company-filter-candidates\nESC ESC         Prefix Command\nM-0 .. M-9      company-complete-number\nM-n             company-select-next\nM-p             company-select-previous\n\nM-ESC ESC       company-abort\n\n\n\n(fn &optional ARG)\n\f\nDesktop-Save minor mode (no indicator):\nToggle desktop saving (Desktop Save mode).\nWith a prefix argument ARG, enable Desktop Save mode if ARG is positive,\nand disable it otherwise.  If called from Lisp, enable the mode if ARG\nis omitted or nil.\n\nWhen Desktop Save mode is enabled, the state of Emacs is saved from\none session to another.  In particular, Emacs will save the desktop when\nit exits (this may prompt you; see the option ’¡Ædesktop-save’¡Ç).  The next\ntime Emacs starts, if this mode is active it will restore the desktop.\n\nTo manually save the desktop at any time, use the command ’¡ÆM-x desktop-save’¡Ç.\nTo load it, use ’¡ÆM-x desktop-read’¡Ç.\n\nOnce a desktop file exists, Emacs will auto-save it according to the\noption ’¡Ædesktop-auto-save-timeout’¡Ç.\n\nTo see all the options you can set, browse the ’¡Ædesktop’¡Ç customization group.\n\nFor further details, see info node ’¡Æ(emacs)Saving Emacs Sessions’¡Ç.\n\n(fn &optional ARG)\n\f\nDiff-Auto-Refine minor mode (no indicator):\nToggle automatic diff hunk highlighting (Diff Auto Refine mode).\nWith a prefix argument ARG, enable Diff Auto Refine mode if ARG\nis positive, and disable it otherwise.  If called from Lisp,\nenable the mode if ARG is omitted or nil.\n\nDiff Auto Refine mode is a buffer-local minor mode used with\n’¡Ædiff-mode’¡Ç.  When enabled, Emacs automatically highlights\nchanges in detail as the user visits hunks.  When transitioning\nfrom disabled to enabled, it tries to refine the current hunk, as\nwell.\n\n(fn &optional ARG)\n\f\nEldoc minor mode (no indicator):\nToggle echo area display of Lisp objects at point (ElDoc mode).\nWith a prefix argument ARG, enable ElDoc mode if ARG is positive,\nand disable it otherwise.  If called from Lisp, enable ElDoc mode\nif ARG is omitted or nil.\n\nElDoc mode is a buffer-local minor mode.  When enabled, the echo\narea displays information about a function or variable in the\ntext where point is.  If point is on a documented variable, it\ndisplays the first line of that variable’¡Çs doc string.  Otherwise\nit displays the argument list of the function called in the\nexpression point is on.\n\n(fn &optional ARG)\n\f\nElectric-Indent minor mode (no indicator):\nToggle on-the-fly reindentation (Electric Indent mode).\nWith a prefix argument ARG, enable Electric Indent mode if ARG is\npositive, and disable it otherwise.  If called from Lisp, enable\nthe mode if ARG is omitted or nil.\n\nWhen enabled, this reindents whenever the hook ’¡Æelectric-indent-functions’¡Ç\nreturns non-nil, or if you insert a character from ’¡Æelectric-indent-chars’¡Ç.\n\nThis is a global minor mode.  To toggle the mode in a single buffer,\nuse ’¡Æelectric-indent-local-mode’¡Ç.\n\f\nElectric-Pair minor mode (no indicator):\nToggle automatic parens pairing (Electric Pair mode).\nWith a prefix argument ARG, enable Electric Pair mode if ARG is\npositive, and disable it otherwise.  If called from Lisp, enable\nthe mode if ARG is omitted or nil.\n\nElectric Pair mode is a global minor mode.  When enabled, typing\nan open parenthesis automatically inserts the corresponding\nclosing parenthesis, and vice versa.  (Likewise for brackets, etc.).\nIf the region is active, the parentheses (brackets, etc.) are\ninserted around the region instead.\n\nTo toggle the mode in a single buffer, use ’¡Æelectric-pair-local-mode’¡Ç.\n\n(fn &optional ARG)\n\f\nFile-Name-Shadow minor mode (no indicator):\nToggle file-name shadowing in minibuffers (File-Name Shadow mode).\nWith a prefix argument ARG, enable File-Name Shadow mode if ARG\nis positive, and disable it otherwise.  If called from Lisp,\nenable the mode if ARG is omitted or nil.\n\nFile-Name Shadow mode is a global minor mode.  When enabled, any\npart of a filename being read in the minibuffer that would be\nignored (because the result is passed through\n’¡Æsubstitute-in-file-name’¡Ç) is given the properties in\n’¡Æfile-name-shadow-properties’¡Ç, which can be used to make that\nportion dim, invisible, or otherwise less visually noticeable.\n\f\nFlycheck minor mode (indicator FlyC-):\nMinor mode for on-the-fly syntax checking.\n\nWhen called interactively, toggle ’¡Æflycheck-mode’¡Ç.  With prefix\nARG, enable ’¡Æflycheck-mode’¡Ç if ARG is positive, otherwise disable\nit.\n\nWhen called from Lisp, enable ’¡Æflycheck-mode’¡Ç if ARG is omitted,\nnil or positive.  If ARG is ’¡Ætoggle’¡Ç, toggle ’¡Æflycheck-mode’¡Ç.\nOtherwise behave as if called interactively.\n\nIn ’¡Æflycheck-mode’¡Ç the buffer is automatically syntax-checked\nusing the first suitable syntax checker from ’¡Æflycheck-checkers’¡Ç.\nUse ’¡Æflycheck-select-checker’¡Ç to select a checker for the current\nbuffer manually.\n\nkey             binding\n---             -------\n\nC-c             Prefix Command\n\nC-c !           Prefix Command\n\nC-c ! C-c       flycheck-compile\nC-c ! C-w       flycheck-copy-errors-as-kill\nC-c ! ?         flycheck-describe-checker\nC-c ! C         flycheck-clear\nC-c ! H         display-local-help\nC-c ! V         flycheck-version\nC-c ! c         flycheck-buffer\nC-c ! e         flycheck-explain-error-at-point\nC-c ! h         flycheck-display-error-at-point\nC-c ! i         flycheck-manual\nC-c ! l         flycheck-list-errors\nC-c ! n         flycheck-next-error\nC-c ! p         flycheck-previous-error\nC-c ! s         flycheck-select-checker\nC-c ! v         flycheck-verify-setup\nC-c ! x         flycheck-disable-checker\n\n\n\n(fn &optional ARG)\n\f\nFont-Lock minor mode (no indicator):\nToggle syntax highlighting in this buffer (Font Lock mode).\nWith a prefix argument ARG, enable Font Lock mode if ARG is\npositive, and disable it otherwise.  If called from Lisp, enable\nthe mode if ARG is omitted or nil.\n\nWhen Font Lock mode is enabled, text is fontified as you type it:\n\n - Comments are displayed in ’¡Æfont-lock-comment-face’¡Ç;\n - Strings are displayed in ’¡Æfont-lock-string-face’¡Ç;\n - Certain other expressions are displayed in other faces\n   according to the value of the variable ’¡Æfont-lock-keywords’¡Ç.\n\nTo customize the faces (colors, fonts, etc.) used by Font Lock for\nfontifying different parts of buffer text, use M-x customize-face.\n\nYou can enable Font Lock mode in any major mode automatically by\nturning on in the major mode’¡Çs hook.  For example, put in your\n~/.emacs:\n\n (add-hook 'c-mode-hook 'turn-on-font-lock)\n\nAlternatively, you can use Global Font Lock mode to automagically\nturn on Font Lock mode in buffers whose major mode supports it\nand whose major mode is one of ’¡Æfont-lock-global-modes’¡Ç.  For\nexample, put in your ~/.emacs:\n\n (global-font-lock-mode t)\n\nWhere major modes support different levels of fontification, you\ncan use the variable ’¡Æfont-lock-maximum-decoration’¡Ç to specify\nwhich level you generally prefer.  When you turn Font Lock mode\non/off the buffer is fontified/defontified, though fontification\noccurs only if the buffer is less than ’¡Æfont-lock-maximum-size’¡Ç.\n\nTo add your own highlighting for some major mode, and modify the\nhighlighting selected automatically via the variable\n’¡Æfont-lock-maximum-decoration’¡Ç, you can use\n’¡Æfont-lock-add-keywords’¡Ç.\n\nTo fontify a buffer, without turning on Font Lock mode and\nregardless of buffer size, you can use M-x font-lock-fontify-buffer.\n\nTo fontify a block (the function or paragraph containing point,\nor a number of lines around point), perhaps because modification\non the current line caused syntactic change on other lines, you\ncan use M-o M-o.\n\nYou can set your own default settings for some mode, by setting a\nbuffer local value for ’¡Æfont-lock-defaults’¡Ç, via its mode hook.\n\nThe above is the default behavior of ’¡Æfont-lock-mode’¡Ç; you may\nspecify your own function which is called when ’¡Æfont-lock-mode’¡Ç\nis toggled via ’¡Æfont-lock-function’¡Ç. \n\f\nGlobal-Company minor mode (no indicator):\nToggle Company mode in all buffers.\nWith prefix ARG, enable Global Company mode if ARG is positive;\notherwise, disable it.  If called from Lisp, enable the mode if\nARG is omitted or nil.\n\nCompany mode is enabled in all buffers where\n’¡Æcompany-mode-on’¡Ç would do it.\nSee ’¡Æcompany-mode’¡Ç for more information on Company mode.\n\n(fn &optional ARG)\n\f\nGlobal-Eldoc minor mode (no indicator):\nToggle Eldoc mode in all buffers.\nWith prefix ARG, enable Global Eldoc mode if ARG is positive;\notherwise, disable it.  If called from Lisp, enable the mode if\nARG is omitted or nil.\n\nEldoc mode is enabled in all buffers where\n’¡Æturn-on-eldoc-mode’¡Ç would do it.\nSee ’¡Æeldoc-mode’¡Ç for more information on Eldoc mode.\n\n(fn &optional ARG)\n\f\nGlobal-Flycheck minor mode (no indicator):\nToggle Flycheck mode in all buffers.\nWith prefix ARG, enable Global Flycheck mode if ARG is positive;\notherwise, disable it.  If called from Lisp, enable the mode if\nARG is omitted or nil.\n\nFlycheck mode is enabled in all buffers where\n’¡Æflycheck-mode-on-safe’¡Ç would do it.\nSee ’¡Æflycheck-mode’¡Ç for more information on Flycheck mode.\n\n(fn &optional ARG)\n\f\nGlobal-Font-Lock minor mode (no indicator):\nToggle Font-Lock mode in all buffers.\nWith prefix ARG, enable Global Font-Lock mode if ARG is positive;\notherwise, disable it.  If called from Lisp, enable the mode if\nARG is omitted or nil.\n\nFont-Lock mode is enabled in all buffers where\n’¡Æturn-on-font-lock-if-desired’¡Ç would do it.\nSee ’¡Æfont-lock-mode’¡Ç for more information on Font-Lock mode.\n\f\nGlobal-Linum minor mode (no indicator):\nToggle Linum mode in all buffers.\nWith prefix ARG, enable Global Linum mode if ARG is positive;\notherwise, disable it.  If called from Lisp, enable the mode if\nARG is omitted or nil.\n\nLinum mode is enabled in all buffers where\n’¡Ælinum-on’¡Ç would do it.\nSee ’¡Ælinum-mode’¡Ç for more information on Linum mode.\n\n(fn &optional ARG)\n\f\nGlobal-Undo-Tree minor mode (no indicator):\nToggle Undo-Tree mode in all buffers.\nWith prefix ARG, enable Global Undo-Tree mode if ARG is positive;\notherwise, disable it.  If called from Lisp, enable the mode if\nARG is omitted or nil.\n\nUndo-Tree mode is enabled in all buffers where\n’¡Æturn-on-undo-tree-mode’¡Ç would do it.\nSee ’¡Æundo-tree-mode’¡Ç for more information on Undo-Tree mode.\n\n(fn &optional ARG)\n\f\nGlobal-Whitespace minor mode (indicator WS):\nToggle whitespace visualization globally (Global Whitespace mode).\nWith a prefix argument ARG, enable Global Whitespace mode if ARG\nis positive, and disable it otherwise.\n\nIf called from Lisp, also enables the mode if ARG is omitted or nil,\nand toggles it if ARG is ’¡Ætoggle’¡Ç.\n\nSee also ’¡Æwhitespace-style’¡Ç, ’¡Æwhitespace-newline’¡Ç and\n’¡Æwhitespace-display-mappings’¡Ç.\n\n(fn &optional ARG)\n\f\nHelm minor mode (indicator Helm):\nToggle generic helm completion.\n\nAll functions in Emacs that use ’¡Æcompleting-read’¡Ç\nor ’¡Æread-file-name’¡Ç and friends will use helm interface\nwhen this mode is turned on.\nHowever you can modify this behavior for functions of your choice\nwith ’¡Æhelm-completing-read-handlers-alist’¡Ç.\n\nCalled with a positive arg, turn on unconditionally, with a\nnegative arg turn off.\nYou can turn it on with ’¡Æhelm-mode’¡Ç.\n\nSome crap emacs functions may not be supported,\ne.g ’¡Æffap-alternate-file’¡Ç and maybe others\nYou can add such functions to ’¡Æhelm-completing-read-handlers-alist’¡Ç\nwith a nil value.\n\nNote: This mode is incompatible with Emacs23.\n\f\nLine-Number minor mode (no indicator):\nToggle line number display in the mode line (Line Number mode).\nWith a prefix argument ARG, enable Line Number mode if ARG is\npositive, and disable it otherwise.  If called from Lisp, enable\nthe mode if ARG is omitted or nil.\n\nLine numbers do not appear for very large buffers and buffers\nwith very long lines; see variables ’¡Æline-number-display-limit’¡Ç\nand ’¡Æline-number-display-limit-width’¡Ç.\n\n(fn &optional ARG)\n\f\nLinum minor mode (no indicator):\nToggle display of line numbers in the left margin (Linum mode).\nWith a prefix argument ARG, enable Linum mode if ARG is positive,\nand disable it otherwise.  If called from Lisp, enable the mode\nif ARG is omitted or nil.\n\nLinum mode is a buffer-local minor mode.\n\n(fn &optional ARG)\n\f\nMac-Mouse-Wheel minor mode (no indicator):\nToggle mouse wheel support with smooth scroll (Mac Mouse Wheel mode).\nWith a prefix argument ARG, enable Mac Mouse Wheel mode if ARG is\npositive, and disable it otherwise.  If called from Lisp, enable\nthe mode if ARG is omitted or nil.\n\n(fn &optional ARG)\n\f\nMenu-Bar minor mode (no indicator):\nToggle display of a menu bar on each frame (Menu Bar mode).\nWith a prefix argument ARG, enable Menu Bar mode if ARG is\npositive, and disable it otherwise.  If called from Lisp, also\nenable Menu Bar mode if ARG is omitted or nil.\n\nThis command applies to all frames that exist and frames to be\ncreated in the future.\n\f\nOrg-Bullets minor mode (no indicator):\nUTF8 Bullets for org-mode\n\f\nOrg-Cdlatex minor mode (indicator OCDL):\nToggle the minor ’¡Æorg-cdlatex-mode’¡Ç.\nThis mode supports entering LaTeX environment and math in LaTeX fragments\nin Org mode.\nkey             binding\n---             -------\n\nC-c             Prefix Command\n'               org-cdlatex-math-modify\n^ .. _          org-cdlatex-underscore-caret\n`               cdlatex-math-symbol\n\nC-c {           org-cdlatex-environment-indent\n\n\n\n(fn &optional ARG)\n\f\nOrg-Indent minor mode (indicator Ind):\nWhen active, indent text according to outline structure.\n\nInternally this works by adding ’¡Æline-prefix’¡Ç and ’¡Æwrap-prefix’¡Ç\nproperties, after each buffer modification, on the modified zone.\n\nThe process is synchronous.  Though, initial indentation of\nbuffer, which can take a few seconds on large buffers, is done\nduring idle time.\n\n(fn &optional ARG)\n\f\nOverride-Global minor mode (no indicator):\nA minor mode so that keymap settings override other modes.\n\f\nPersistent-Scratch-Autosave minor mode (no indicator):\nAutosave scratch buffer state.\nEvery ’¡Æpersistent-scratch-autosave-interval’¡Ç seconds and when Emacs quits, the\nstate of all active scratch buffers is saved.\nThis uses ’¡Æpersistent-scratch-save’¡Ç, which see.\n\nToggle Persistent-Scratch-Autosave mode on or off.\nWith a prefix argument ARG, enable Persistent-Scratch-Autosave mode if ARG is\npositive, and disable it otherwise. If called from Lisp, enable the mode if ARG\nis omitted or nil, and toggle it if ARG is ’¡Ætoggle’¡Ç.\n\nUses keymap ’¡Æpersistent-scratch-autosave-mode-map’¡Ç, which is not currently defined.\n\n\n(fn &optional ARG)\n\f\nPopwin minor mode (no indicator):\n\n\f\nPyvenv minor mode (no indicator):\nGlobal minor mode for pyvenv.\n\nWill show the current virtualenv in the mode line, and respect a\n’¡Æpyvenv-workon’¡Ç setting in files.\n\n(fn &optional ARG)\n\f\nShell-Dirtrack minor mode (no indicator):\nToggle directory tracking in this shell buffer (Shell Dirtrack mode).\nWith a prefix argument ARG, enable Shell Dirtrack mode if ARG is\npositive, and disable it otherwise.  If called from Lisp, enable\nthe mode if ARG is omitted or nil.\n\nThe ’¡Ædirtrack’¡Ç package provides an alternative implementation of\nthis feature; see the function ’¡Ædirtrack-mode’¡Ç.\n\n(fn &optional ARG)\n\f\nShow-Paren minor mode (no indicator):\nToggle visualization of matching parens (Show Paren mode).\nWith a prefix argument ARG, enable Show Paren mode if ARG is\npositive, and disable it otherwise.  If called from Lisp, enable\nthe mode if ARG is omitted or nil.\n\nShow Paren mode is a global minor mode.  When enabled, any\nmatching parenthesis is highlighted in ’¡Æshow-paren-style’¡Ç after\n’¡Æshow-paren-delay’¡Ç seconds of Emacs idle time.\n\f\nTooltip minor mode (no indicator):\nToggle Tooltip mode.\nWith a prefix argument ARG, enable Tooltip mode if ARG is positive,\nand disable it otherwise.  If called from Lisp, enable the mode\nif ARG is omitted or nil.\n\nWhen this global minor mode is enabled, Emacs displays help\ntext (e.g. for buttons and menu items that you put the mouse on)\nin a pop-up window.\n\nWhen Tooltip mode is disabled, Emacs displays help text in the\necho area, instead of making a pop-up window.\n\f\nTransient-Mark minor mode (no indicator):\nToggle Transient Mark mode.\nWith a prefix argument ARG, enable Transient Mark mode if ARG is\npositive, and disable it otherwise.  If called from Lisp, enable\nTransient Mark mode if ARG is omitted or nil.\n\nTransient Mark mode is a global minor mode.  When enabled, the\nregion is highlighted with the ’¡Æregion’¡Ç face whenever the mark\nis active.  The mark is \"deactivated\" after certain non-motion\ncommands, including those that change the text in the buffer, and\nduring shift or mouse selection by any unshifted cursor motion\ncommand (see Info node ’¡ÆShift Selection’¡Ç for more details).\n\nYou can also deactivate the mark by typing C-g or\nM-x keyboard-escape-quit.\n\nMany commands change their behavior when Transient Mark mode is\nin effect and the mark is active, by acting on the region instead\nof their usual default part of the buffer’¡Çs text.  Examples of\nsuch commands include M-;, M-x flush-lines, M-x keep-lines,\nM-%, C-M-%, M-x ispell, and C-_.\nTo see the documentation of commands which are sensitive to the\nTransient Mark mode, invoke <f1> d and type \"transient\"\nor \"mark.*active\" at the prompt.\n\n(fn &optional ARG)\n\f\nUndo-Tree minor mode (indicator Undo-Tree):\nToggle undo-tree mode.\nWith no argument, this command toggles the mode.\nA positive prefix argument turns the mode on.\nA negative prefix argument turns it off.\n\nUndo-tree-mode replaces Emacs’¡Ç standard undo feature with a more\npowerful yet easier to use version, that treats the undo history\nas what it is: a tree.\n\nThe following keys are available in ’¡Æundo-tree-mode’¡Ç:\n\n  key             binding\n---             -------\n\nC-x             Prefix Command\nESC             Prefix Command\nC-_             undo-tree-undo\nC-/             undo-tree-undo\nC-?             undo-tree-redo\n<remap>         Prefix Command\n\nC-x r           Prefix Command\nC-x u           undo-tree-visualize\n\nM-_             undo-tree-redo\n\n<remap> <redo>  undo-tree-redo\n<remap> <undo>  undo-tree-undo\n<remap> <undo-only>             undo-tree-undo\n\nC-x r U         undo-tree-restore-state-from-register\nC-x r u         undo-tree-save-state-to-register\n\n\n\nWithin the undo-tree visualizer, the following keys are available:\n\n  key             binding\n---             -------\n\nC-b             undo-tree-visualize-switch-branch-left\nC-f             undo-tree-visualize-switch-branch-right\nC-n             undo-tree-visualize-redo\nC-p             undo-tree-visualize-undo\nC-q             undo-tree-visualizer-abort\nESC             Prefix Command\n,               undo-tree-visualizer-scroll-left\n.               undo-tree-visualizer-scroll-right\n<               undo-tree-visualizer-scroll-left\n>               undo-tree-visualizer-scroll-right\nb               undo-tree-visualize-switch-branch-left\nd               undo-tree-visualizer-toggle-diff\nf               undo-tree-visualize-switch-branch-right\nn               undo-tree-visualize-redo\np               undo-tree-visualize-undo\nq               undo-tree-visualizer-quit\ns               undo-tree-visualizer-selection-mode\nt               undo-tree-visualizer-toggle-timestamps\n<C-down>        undo-tree-visualize-redo-to-x\n<C-up>          undo-tree-visualize-undo-to-x\n<down>          undo-tree-visualize-redo\n<left>          undo-tree-visualize-switch-branch-left\n<mouse-1>       undo-tree-visualizer-mouse-set\n<next>          undo-tree-visualizer-scroll-up\n<prior>         undo-tree-visualizer-scroll-down\n<remap>         Prefix Command\n<right>         undo-tree-visualize-switch-branch-right\n<up>            undo-tree-visualize-undo\n\nM-{             undo-tree-visualize-undo-to-x\nM-}             undo-tree-visualize-redo-to-x\n\n<remap> <backward-char>         undo-tree-visualize-switch-branch-left\n<remap> <backward-paragraph>    undo-tree-visualize-undo-to-x\n<remap> <forward-char>          undo-tree-visualize-switch-branch-right\n<remap> <forward-paragraph>     undo-tree-visualize-redo-to-x\n<remap> <next-line>             undo-tree-visualize-redo\n<remap> <previous-line>         undo-tree-visualize-undo\n\n\n\n(fn &optional ARG)\n\f\nYas minor mode (no indicator):\nToggle YASnippet mode.\n\nWhen YASnippet mode is enabled, ’¡Æyas-expand’¡Ç, normally bound to\nthe TAB key, expands snippets of code depending on the major\nmode.\n\nWith no argument, this command toggles the mode.\npositive prefix argument turns on the mode.\nNegative prefix argument turns off the mode.\n\nKey bindings:\nkey             binding\n---             -------\n\nC-c             Prefix Command\nC-x             Prefix Command\n\nC-x i           Prefix Command\n\nC-c &           Prefix Command\n\nC-x i i         yas-insert-snippet\nC-x i n         yas-new-snippet\nC-x i v         yas-visit-snippet-file\n\nC-c & C-n       yas-new-snippet\nC-c & C-s       yas-insert-snippet\nC-c & C-v       yas-visit-snippet-file\n\n\n\f\nYas-Global minor mode (no indicator):\nToggle Yas minor mode in all buffers.\nWith prefix ARG, enable Yas-Global mode if ARG is positive;\notherwise, disable it.  If called from Lisp, enable the mode if\nARG is omitted or nil.\n\nYas minor mode is enabled in all buffers where\n’¡Æyas-minor-mode-on’¡Ç would do it.\nSee ’¡Æyas-minor-mode’¡Ç for more information on Yas minor mode.\n" "*\n(desktop-save-mode t)\n(setq desktop-auto-save-timeout 20)\n\n\n*\nDebugger entered--Lisp error:\n  (void-function globa-set-key)\n  (globa-set-key (kbd \"s-t\") (quote elscreen-find-file))\n  eval((globa-set-key (kbd \"s-t\") (quote elscreen-find-file)) nil)\n  elisp--eval-last-sexp(nil)\n  eval-last-sexp(nil)\n  funcall-interactively(eval-last-sexp nil)\n  call-interactively(eval-last-sexp nil nil)\n  command-execute(eval-last\n" "(unless window-system" ";;; janpanaize\n(set-default-coding-systems 'utf-8)\n(set-keyboard-coding-system 'utf-8)\n(set-terminal-coding-system 'utf-8)\n(set-buffer-file-coding-system 'utf-8)\n" "(unless window-system\n  (load-theme 'manoj-dark t)\n  )\n" "\\begin{math}\n\n\\end{math}\n" "`org-cdlatex-mode' Minor Mode Bindings Starting With C-c:" "    r" "r)" "xyz" "abcdef" "abcdef"))
 (setq kill-ring-yank-pointer (nthcdr 0 kill-ring))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 208
-  "/Users/freedom/scratch/2020-06-03.text"
-  "2020-06-03.text"
+  "/Users/freedom/scratch/2020-06-04.org"
+  "2020-06-04.org"
   'org-mode
-  '(eldoc-mode linum-mode override-global-mode global-whitespace-mode persistent-scratch-autosave-mode helm-mode undo-tree-mode yas-minor-mode company-mode flycheck-mode org-cdlatex-mode org-indent-mode)
-  127
-  '(6793 nil)
+  '(eldoc-mode linum-mode override-global-mode whitespace-mode global-whitespace-mode persistent-scratch-autosave-mode helm-mode undo-tree-mode yas-minor-mode company-mode flycheck-mode org-cdlatex-mode org-indent-mode)
+  3555
+  '(3556 nil)
   nil
   nil
-  '((indent-tabs-mode) (buffer-display-time 24279 51532 38348 0) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
-  '((mark-ring (6810 6907 6957 6799 79 2604 1351 1585 1582 1576 1584 1847 1590 1649 1646 143))))
+  '((indent-tabs-mode) (buffer-display-time 24281 41423 90729 0) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring (3552 3457 3429 3516 3269 2994 2999 3016 2986 2807 2468 946 945 56 672 674))))
 
 (desktop-create-buffer 208
-  "/Users/freedom/coder/abc169_d.py.py"
-  "abc169_d.py.py"
-  'python-mode
-  '(eldoc-mode linum-mode override-global-mode global-whitespace-mode persistent-scratch-autosave-mode helm-mode undo-tree-mode yas-minor-mode company-mode elpy-mode flymake-mode highlight-indentation-mode flycheck-mode)
-  981
-  '(1104 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24279 49589 137080 0) (buffer-file-coding-system . undecided-unix))
-  '((mark-ring (1083 1083 1102 825 1226 881 1052))))
-
-(desktop-create-buffer 208
-  "/Users/freedom/.emacs.d/inits/00_command-keymap_and_fundamentals.el"
-  "00_command-keymap_and_fundamentals.el"
+  "/Users/freedom/.emacs.d/inits/03_whitespace.el"
+  "03_whitespace.el"
   'emacs-lisp-mode
   '(eldoc-mode linum-mode override-global-mode global-whitespace-mode persistent-scratch-autosave-mode helm-mode undo-tree-mode yas-minor-mode company-mode flycheck-mode)
-  3278
-  '(3711 nil)
+  360
+  '(316 nil)
   nil
   nil
-  '((buffer-display-time 24279 51100 168177 0) (buffer-file-coding-system . utf-8-unix))
-  '((mark-ring (3673 3649 3529 3585 3342 405 2560 3523 3583 3420 3851))))
-
-(desktop-create-buffer 208
-  "/Users/freedom/.emacs.d/japanize.el"
-  "japanize.el"
-  'emacs-lisp-mode
-  '(eldoc-mode linum-mode override-global-mode global-whitespace-mode persistent-scratch-autosave-mode helm-mode undo-tree-mode yas-minor-mode company-mode flycheck-mode)
-  163
-  '(1 nil)
-  nil
-  nil
-  '((buffer-display-time 24279 50758 199146 0) (buffer-file-coding-system . prefer-utf-8-unix))
-  '((mark-ring nil)))
+  '((buffer-display-time 24281 43257 815894 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (317 838 793 1 1377 224 276 209 223 308 609 593 425 1006 318))))
 
 (desktop-create-buffer 208
   "/Users/freedom/.emacs.d/init.el"
   "init.el"
   'emacs-lisp-mode
   '(eldoc-mode linum-mode override-global-mode global-whitespace-mode persistent-scratch-autosave-mode helm-mode undo-tree-mode yas-minor-mode company-mode flycheck-mode)
-  318
+  1859
   '(1822 nil)
   nil
   nil
-  '((buffer-display-time 24279 50625 601473 0) (buffer-file-coding-system . utf-8-unix))
+  '((buffer-display-time 24281 42376 76645 0) (buffer-file-coding-system . utf-8-unix))
   '((mark-ring (1 2022))))
+
+(desktop-create-buffer 208
+  "/Users/freedom/.emacs.d/inits/02_org.el"
+  "02_org.el"
+  'emacs-lisp-mode
+  '(eldoc-mode linum-mode override-global-mode global-whitespace-mode persistent-scratch-autosave-mode helm-mode undo-tree-mode yas-minor-mode company-mode flycheck-mode)
+  1893
+  '(1913 nil)
+  nil
+  nil
+  '((buffer-display-time 24281 43394 281022 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (2114 2498 1064 2085 2037 2006 1970 953 1 1322 2277 2512 1456 2658 2647 2721))))
+
+(desktop-create-buffer 208
+  "/Users/freedom/scratch/2020-06-03.org"
+  "2020-06-03.org"
+  'org-mode
+  '(eldoc-mode linum-mode override-global-mode global-whitespace-mode persistent-scratch-autosave-mode helm-mode undo-tree-mode yas-minor-mode company-mode flycheck-mode org-cdlatex-mode org-indent-mode)
+  817
+  '(805 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 24281 44141 443124 0) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring (900 1431 1269 806 1368 1232 1238 1188 1388 1450 927 901 806 806))))
+
+(desktop-create-buffer 208
+  "/Users/freedom/.emacs.d/inits/00_command-keymap_and_fundamentals.el"
+  "00_command-keymap_and_fundamentals.el"
+  'emacs-lisp-mode
+  '(eldoc-mode linum-mode override-global-mode global-whitespace-mode persistent-scratch-autosave-mode helm-mode undo-tree-mode yas-minor-mode company-mode flycheck-mode)
+  767
+  '(722 nil)
+  nil
+  nil
+  '((buffer-display-time 24281 42253 594603 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (3745 3707 3683 3563 3619 3376 405 1944 3557 3617 3454 3885 755 735))))
+
+(desktop-create-buffer 208
+  "/Users/freedom/Documents/org/agenda/"
+  "agenda"
+  'fundamental-mode
+  '(linum-mode override-global-mode global-whitespace-mode persistent-scratch-autosave-mode helm-mode undo-tree-mode yas-minor-mode company-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 24280 55113 713360 0))
+  '((mark-ring nil)))
 
 (desktop-create-buffer 208
   "/Users/freedom/Documents/org/captured.org"
@@ -88,7 +112,55 @@
   '(1 nil)
   nil
   nil
-  '((buffer-display-time 24279 50003 603918 0) (buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((buffer-display-time 24280 55114 181431 0) (buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/freedom/ownCloud/Org/notes.org"
+  "notes.org"
+  'org-mode
+  '(eldoc-mode linum-mode override-global-mode global-whitespace-mode persistent-scratch-autosave-mode helm-mode undo-tree-mode yas-minor-mode company-mode flycheck-mode org-cdlatex-mode org-indent-mode)
+  34
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 24280 37174 712016 398000) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/freedom/scratch/2020-06-03.text"
+  "2020-06-03.text"
+  'elisp-byte-code-mode
+  '(eldoc-mode linum-mode override-global-mode global-whitespace-mode persistent-scratch-autosave-mode helm-mode undo-tree-mode yas-minor-mode company-mode flycheck-mode)
+  1235
+  '(10093 nil)
+  nil
+  nil
+  '((buffer-display-time 24280 35132 326417 398000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (10093 10172 9663 6793 6810 6907 6957 6799 79 2604 1351 1585 1582 1576 1584 1847))))
+
+(desktop-create-buffer 208
+  "/Users/freedom/coder/abc169_d.py.py"
+  "abc169_d.py.py"
+  'python-mode
+  '(eldoc-mode linum-mode override-global-mode global-whitespace-mode persistent-scratch-autosave-mode helm-mode undo-tree-mode yas-minor-mode company-mode elpy-mode flymake-mode highlight-indentation-mode flycheck-mode)
+  981
+  '(1104 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24279 59930 340274 280000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (1083 1083 1102 825 1226 881 1052))))
+
+(desktop-create-buffer 208
+  "/Users/freedom/.emacs.d/japanize.el"
+  "japanize.el"
+  'emacs-lisp-mode
+  '(eldoc-mode linum-mode override-global-mode global-whitespace-mode persistent-scratch-autosave-mode helm-mode undo-tree-mode yas-minor-mode company-mode flycheck-mode)
+  163
+  '(1 nil)
+  nil
+  nil
+  '((buffer-display-time 24279 61100 381951 280000) (buffer-file-coding-system . prefer-utf-8-unix))
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
@@ -100,7 +172,7 @@
   '(nil nil)
   t
   nil
-  '((buffer-display-time 24279 43948 535112 0) (buffer-file-coding-system . undecided-unix))
+  '((buffer-display-time 24279 54292 256910 280000) (buffer-file-coding-system . undecided-unix))
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
@@ -112,7 +184,7 @@
   '(1343 nil)
   nil
   nil
-  '((buffer-display-time 24279 43871 862945 0) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t))
+  '((buffer-display-time 24279 54216 201656 280000) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t))
   '((mark-ring (1491 1347 1321 1123 461 579 1214 1138 1006 996 862 794 582 1399 10 28))))
 
 (desktop-create-buffer 208
@@ -124,7 +196,7 @@
   '(752 nil)
   nil
   nil
-  '((buffer-display-time 24278 5151 599346 334000) (buffer-file-coding-system . utf-8-unix))
+  '((buffer-display-time 24278 15496 67214 614000) (buffer-file-coding-system . utf-8-unix))
   '((mark-ring (674 658))))
 
 (desktop-create-buffer 208
@@ -136,32 +208,8 @@
   '(nil nil)
   nil
   nil
-  '((buffer-display-time 24274 23763 513844 408000) (buffer-file-coding-system . utf-8-unix))
+  '((buffer-display-time 24274 34108 518043 688000) (buffer-file-coding-system . utf-8-unix))
   '((mark-ring nil)))
-
-(desktop-create-buffer 208
-  "/Users/freedom/.emacs.d/inits/03_whitespace.el"
-  "03_whitespace.el"
-  'emacs-lisp-mode
-  '(eldoc-mode linum-mode override-global-mode global-whitespace-mode persistent-scratch-autosave-mode helm-mode undo-tree-mode yas-minor-mode company-mode flycheck-mode)
-  139
-  '(nil nil)
-  nil
-  nil
-  '((buffer-display-time 24274 23764 286111 408000) (buffer-file-coding-system . utf-8-unix))
-  '((mark-ring nil)))
-
-(desktop-create-buffer 208
-  "/Users/freedom/.emacs.d/inits/02_org.el"
-  "02_org.el"
-  'emacs-lisp-mode
-  '(eldoc-mode linum-mode override-global-mode global-whitespace-mode persistent-scratch-autosave-mode helm-mode undo-tree-mode yas-minor-mode company-mode flycheck-mode)
-  1343
-  '(1284 nil)
-  nil
-  nil
-  '((buffer-display-time 24274 23765 222532 408000) (buffer-file-coding-system . utf-8-unix))
-  '((mark-ring (1195 578 309))))
 
 (desktop-create-buffer 208
   nil
@@ -172,7 +220,7 @@
   '(nil nil)
   t
   '("dir" "Top" nil)
-  '((tab-width . 8) (buffer-display-time 24274 17634 576560 408000) (case-fold-search . t))
+  '((tab-width . 8) (buffer-display-time 24274 27981 50117 688000) (case-fold-search . t))
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
@@ -184,7 +232,7 @@
   '(nil nil)
   t
   nil
-  '((buffer-display-time 24274 23770 395198 408000) (buffer-file-coding-system . utf-8-unix))
+  '((buffer-display-time 24274 34117 275027 688000) (buffer-file-coding-system . utf-8-unix))
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
@@ -196,7 +244,7 @@
   '(nil nil)
   t
   '("/Users/freedom/.emacs.d/")
-  '((buffer-display-time 24274 23771 382339 408000))
+  '((buffer-display-time 24274 34120 182547 688000))
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
@@ -208,7 +256,7 @@
   '(nil nil)
   nil
   nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24274 23790 349184 408000) (buffer-file-coding-system . utf-8-unix))
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24274 34142 66572 688000) (buffer-file-coding-system . utf-8-unix))
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
@@ -220,7 +268,7 @@
   '(1433 nil)
   nil
   nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24274 23795 188649 408000) (buffer-file-coding-system . utf-8-unix))
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24274 34149 354713 688000) (buffer-file-coding-system . utf-8-unix))
   '((mark-ring (1028 921 1433 1 1433 1433 1433 1101 251 1273 1028))))
 
 (desktop-create-buffer 208
@@ -232,7 +280,7 @@
   '(940 nil)
   nil
   nil
-  '((buffer-display-time 24274 23813 534417 408000) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t))
+  '((buffer-display-time 24274 34168 411764 688000) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t))
   '((mark-ring (1263 800 865 637 540 376 142 321 270 254 253 220 177 212 184 613))))
 
 (desktop-create-buffer 208
@@ -244,7 +292,7 @@
   '(1202 nil)
   nil
   nil
-  '((buffer-display-time 24274 23814 408225 408000) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t))
+  '((buffer-display-time 24274 34169 860856 688000) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t))
   '((mark-ring (997 693 539 1150 1047 945 846 493 1895 1506 1259 2060 2778 2274 2181 996))))
 
 (desktop-create-buffer 208
@@ -256,7 +304,7 @@
   '(1852 nil)
   nil
   nil
-  '((buffer-display-time 24274 23819 162893 408000) (buffer-file-coding-system . utf-8-unix) (fill-column . 72))
+  '((buffer-display-time 24274 34177 541354 688000) (buffer-file-coding-system . utf-8-unix) (fill-column . 72))
   '((mark-ring (1617 1591 1610 2667 2678 2546 2573))))
 
 (desktop-create-buffer 208
@@ -268,7 +316,7 @@
   '(183 nil)
   nil
   nil
-  '((buffer-display-time 24274 23819 552247 408000) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t))
+  '((buffer-display-time 24274 34178 75458 688000) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t))
   '((mark-ring (686 593 660 175))))
 
 (desktop-create-buffer 208
@@ -280,7 +328,7 @@
   '(32 nil)
   nil
   nil
-  '((buffer-display-time 24274 23821 248335 408000) (buffer-file-coding-system . undecided-unix))
+  '((buffer-display-time 24274 34179 917759 688000) (buffer-file-coding-system . undecided-unix))
   '((mark-ring (32))))
 
 (desktop-create-buffer 208
@@ -292,7 +340,7 @@
   '(nil nil)
   nil
   nil
-  '((buffer-display-time 24274 23821 671713 408000) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t))
+  '((buffer-display-time 24274 34180 728999 688000) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t))
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
@@ -304,7 +352,7 @@
   '(nil nil)
   nil
   nil
-  '((buffer-display-time 24274 23822 135076 408000) (buffer-file-coding-system . prefer-utf-8-unix))
+  '((buffer-display-time 24274 34181 468455 688000) (buffer-file-coding-system . prefer-utf-8-unix))
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
@@ -316,7 +364,7 @@
   '(nil nil)
   nil
   nil
-  '((buffer-display-time 24274 23822 611264 408000) (buffer-file-coding-system . prefer-utf-8-unix))
+  '((buffer-display-time 24274 34182 143475 688000) (buffer-file-coding-system . prefer-utf-8-unix))
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
@@ -328,7 +376,7 @@
   '(nil nil)
   nil
   nil
-  '((buffer-display-time 24274 23823 59950 408000) (buffer-file-coding-system . prefer-utf-8-unix))
+  '((buffer-display-time 24274 34195 380277 688000) (buffer-file-coding-system . prefer-utf-8-unix))
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
@@ -340,7 +388,7 @@
   '(nil nil)
   nil
   nil
-  '((buffer-display-time 24274 23823 996780 408000) (buffer-file-coding-system . prefer-utf-8-unix))
+  '((buffer-display-time 24274 34196 673205 688000) (buffer-file-coding-system . prefer-utf-8-unix))
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
@@ -352,7 +400,7 @@
   '(nil nil)
   nil
   nil
-  '((buffer-display-time 24274 23824 500932 408000) (buffer-file-coding-system . prefer-utf-8-unix))
+  '((buffer-display-time 24274 34197 421690 688000) (buffer-file-coding-system . prefer-utf-8-unix))
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
@@ -364,7 +412,7 @@
   '(nil nil)
   nil
   nil
-  '((buffer-display-time 24274 17686 555483 408000) (buffer-file-coding-system . prefer-utf-8-unix))
+  '((buffer-display-time 24274 28059 827482 688000) (buffer-file-coding-system . prefer-utf-8-unix))
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
@@ -376,6 +424,6 @@
   '(nil nil)
   nil
   nil
-  '((buffer-display-time 24279 36996 725500 0) (buffer-file-coding-system . utf-8-unix))
+  '((buffer-display-time 24280 44934 486956 0) (buffer-file-coding-system . utf-8-unix))
   '((mark-ring nil)))
 

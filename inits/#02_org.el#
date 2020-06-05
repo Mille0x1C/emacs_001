@@ -73,7 +73,7 @@
 (define-key org-mode-map (kbd "C-c <tab>") 'org-cycle)
 
 ;;; my  Emacs設定変数 の設定
-()
+;;()
 
 ;; notes.org を活用するといいですよ
 (global-set-key (kbd "C-M-^") '(lambda () (interactive)

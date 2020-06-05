@@ -74,10 +74,26 @@
  '(mac-option-modifier
    (quote
     (:ordinary meta :function meta :mouse alt :button 2)))
+ '(org-support-shift-select (quote always))
  '(package-selected-packages
    (quote
     (hydra persistent-scratch lsp-haskell lsp-ui lsp-mode ztree use-package popwin w3 yatex visual-regexp-steroids virtualenvwrapper virtualenv undo-tree tuareg tabbar rtags restart-emacs rainbow-mode powerline perspective pcre2el org-plus-contrib org omni-scratch multi-eshell modern-cpp-font-lock jedi-core init-loader helm-perspeen flycheck-irony flycheck-clang-analyzer find-file-in-project exec-path-from-shell ensime elscreen elpy company-irony cmake-ide cedit cdlatex browse-kill-ring+ auto-install auctex apel 2048-game 0xc))))
 
+(unless (window-system)
+  (custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(font-lock-comment-face ((t (:foreground "OliveDrab4"))))
+ '(org-meta-line ((t (:inherit font-lock-comment-face :foreground "medium spring green"))))
+ '(whitespace-empty ((t (:foreground "gray20" :underline t))))
+ '(whitespace-space ((t (:foreground "gray20"))))
+ '(whitespace-tab ((t (:foreground "darkgray"))))
+ '(whitespace-trailing ((t (:foreground "gray20" :weight bold)))))
+  )
+
+;;(custom-enabled-themes (quote (tsdh-dark)))
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

@@ -84,7 +84,7 @@
 (set-terminal-coding-system 'utf-8)
 (set-keyboard-coding-system 'utf-8)
 (set-buffer-file-coding-system 'utf-8)
-(setq default-buffer-file-coding-system 'utf-8)
+(setq-default default-buffer-file-coding-system 'utf-8)
 (set-default-coding-systems 'utf-8)
 (prefer-coding-system 'utf-8)
 
@@ -145,8 +145,8 @@
 
 (global-set-key (kbd "C-c k") 'line_copy)
 
-
-(define-key org-mode-map (kbd "TAB") 'indent-for-tab-command)
+;; for org mode obsolute
+;;(define-key org-mode-map (kbd "tab") 'indent-for-tab-command)
 
 ;; (insert (concatenate 'string org-mode-map))
 ;; (type org-mode-map)

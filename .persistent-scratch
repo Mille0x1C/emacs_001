@@ -1,25 +1,30 @@
 (["*scratch*" ";; This buffer is for text that is not saved, and for Lisp evaluation.
 ;; To create a file, visit it with \\[find-file] and enter text in its buffer.
-*
+* 
+
 2020-06-03(Wed) 20:48:52
 2020-06-03(Wed) 21:00:05
 2020-06-03(Wed) 21:00:08
 
+あsdふぁsdふぁ
+あsdfさふぁ
+* 
+aasdfa あsdふぁsdふぁ asdfasdfa
+adsfasdfa
+あがdsふぁ
+あsdふぁふぁ
+がfdさf
+
+あああ
+aaa sdfsふぁあ  ccc
 
 
-*
-(desktop-save-mode t)
-(setq desktop-auto-save-timeout 20)
+
+* homebrew 
++ brew cask
 
 
-*
-Debugger entered--Lisp error:
-  (void-function globa-set-key)
-  (globa-set-key (kbd \"s-t\") (quote elscreen-find-file))
-  eval((globa-set-key (kbd \"s-t\") (quote elscreen-find-file)) nil)
-  elisp--eval-last-sexp(nil)
-  eval-last-sexp(nil)
-  funcall-interactively(eval-last-sexp nil)
-  call-interactively(eval-last-sexp nil nil)
-  command-execute(eval-last
-" (1 . 290) lisp-interaction-mode nil nil])
++ brew tap
+
+* 
+ " (266 . 248) org-mode nil nil])
